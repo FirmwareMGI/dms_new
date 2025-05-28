@@ -1,0 +1,223 @@
+from ast import Name
+
+import asyncio
+import json
+#import grequests
+from time import gmtime, strftime
+import requests
+from datetime import datetime
+from pymysqlpool.pool import Pool
+import pymysql.cursors
+pool = Pool(host='localhost', port=3306, user='dms', password='mgi', db='dms')
+db=[0]*5
+for i in range(3):
+    db[i] = pool.get_conn()
+
+url=[]
+def queryData(x,query):
+    global db
+    global pool
+    try:
+        db[x].ping(reconnect=True)
+        cursor = db[x].cursor()
+        cursor.execute(query)
+        result = cursor.fetchall()     
+        db[x].commit()
+        cursor.close()
+        pool.release(db[x])
+        db[i] = pool.get_conn()
+        #print(result)
+        return result 
+    
+    except NameError:
+        print(NameError)
+class updateDb:
+    def scl_flag(x,flag,id):
+        query= f"UPDATE device_list set scl_flag = "+str(flag) +" where id_device = "+str(id)
+        print(query)
+        try:
+            results =queryData(x,query)
+            return results
+        except:
+            print("eror query")
+    def flag_config(x,flag):
+        query= f"UPDATE flag_config set flag_program_iec  = {flag}"
+        print(query)
+        try:
+            results =queryData(x,query)
+            return results
+        except:
+            print("eror query")
+           
+    def data_iec_filedr_update(x, relayId, listFile):
+        countData = listFile.split("|")
+        # Count the number of items
+        countList = len(countData)
+        query = f"UPDATE data_iec_filedr SET jumlahDR = '{countList}', listDR = '{listFile}' WHERE id_device = '{relayId}'"
+        
+        try:
+            results = queryData(x, query)
+            return results
+        except Exception as e:
+            print(f"Error executing update query: {e}")
+
+class readNUpdateDb:
+    def network(x):
+        query= f"select a.*,b.ipserver from m_file_iec a  cross join network b where active =1"
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+
+
+class readDb:
+    def readDataTabel(x,tb):
+        query= f"select * from {tb}"
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+    
+    def data_iec_filedr_all(x):
+        query = "SELECT * FROM data_iec_filedr"
+        try:
+            results = queryData(x, query)  # Assuming queryData fetches and returns results
+            return results
+        except Exception as e:
+            print(f"Error executing read all query: {e}")
+            return None  # Return None on error
+
+    def m_file_iec_read_by_active(x):
+        query= f"select a.*,b.ipserver from m_file_iec a  cross join network b where active =1"
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+    # def m_file_iec_read_by_active(x):
+    #     query= f"select a.*,b.ipserver from m_file_iec a  cross join network b where active =1"
+    #     try:
+    #        results =queryData(x,query)
+    #        return results
+    #     except:
+    #         print("eror query")
+    def flag_config(x):
+        query= f"Select * from flag_config"
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+    def device_list_by_mode(x):
+        query= f"select * from device_list where mode=2"
+        try:
+            results =queryData(x,query)
+            return results
+        except:
+            print("eror query")
+    def device_list(x):
+        query= f"select * from device_list "
+        try:
+            results =queryData(x,query)
+            return results
+        except:
+            print("eror query")
+    
+    def network_mqtt(x):
+        query= f"select ipserver, mqtt_server, mqtt_username, mqtt_pass, mqtt_port from network b "
+        try:
+            results =queryData(x,query)
+            return results
+        except:
+            print("eror query")
+            
+    def network(x):
+        query = f"select * from network "
+        try:
+            results = queryData(x, query)
+            return results
+        except:
+            print("eror query")
+
+    def m_mesin(x):
+        query = f"select * from m_mesin "
+        try:
+            results = queryData(x, query)
+            return results
+        except:
+            print("eror query")
+
+            
+class insertDb:
+    def __init__(self,index):
+        self.index = index
+    def m_file_iec_insert(x,domainId,itemId,ip,relayId):
+        #query= f"insert into m_file_iec (domain_id,item_id,relay_id,ip_address) values('{domainId}','{itemId}','{relayId}','{ip}')"
+        query= f"insert into it_file_iec (domain_id,item_id,id_device,ip_address) values('{domainId}','{itemId}','{relayId}','{ip}')"
+        
+        #print(query)
+        
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+    
+    def data_iec_filedr_insert(x,relayId, listFile):
+        countData = listFile.split("|")
+        # Count the number of items
+        countList = len(countData)        
+
+        query = f"INSERT INTO data_iec_filedr (id_device, jumlahDR, listDR) VALUES ('{relayId}', '{countList}', '{listFile}')"
+        try:
+            results = queryData(x, query)
+            return results
+        except Exception as e:
+            print(f"Error executing query: {e}")
+
+class deleteDb:
+    def __init__(self,index):
+        self.index = index
+    def m_file_iec_delete_by_domain_id(x,domainId):
+        query= f"delete from  it_file_iec where domain_id='{domainId}'"
+        #print(query)
+        
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+    def it_file_iec_delete_by_id(x,Id):
+        query= f"delete from  it_file_iec where domain_id='{Id}'"
+        #print(query)
+        
+        try:
+           results =queryData(x,query)
+           return results
+        except:
+            print("eror query")
+
+class updDb:
+    def updData(x,tabel,row,val,where,val2):
+        query =f"update {tabel} set {row} = {val} where {where} = {val2}"
+       # print(query)
+        try:
+            results =queryData(x,query)
+            return results
+        except NameError:
+            print("query Error"+NameError)
+            
+    def data_iec_filedr_update(x, relayId, listFile):
+        countData = listFile.split("|")
+        # Count the number of items
+        countList = len(countData)
+        query = f"UPDATE data_iec_filedr SET jumlahDR = '{countList}', listDR = '{listFile}' WHERE id_device = '{relayId}'"
+        
+        
+        try:
+            results = queryData(x, query)
+            return results
+        except Exception as e:
+            print(f"Error executing update query: {e}")

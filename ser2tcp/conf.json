@@ -1,0 +1,17 @@
+[
+    {
+        "serial": {
+            "port": "/dev/ttyUSB0",
+            "baudrate": 19200,
+            "parity": "NONE",
+            "stopbits": "ONE"
+        },
+        "servers": [
+            {
+                "address": "0.0.0.0",
+                "port": 2000,
+                "protocol": "TCP"
+            }
+        ]
+    }
+]

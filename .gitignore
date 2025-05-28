@@ -1,0 +1,7 @@
+
+# Ignore token files and system files
+stop
+*.log
+*.pyc
+__pycache__/
+.env
