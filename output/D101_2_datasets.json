@@ -1,0 +1,645 @@
+[
+    {
+        "dataSetReference": "D101Ctrl/LLN0$Dinsa",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/GGIO1.Ind[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "D101Ctrl/GGIO1.Ind1[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "D101Ctrl/LLN0.Loc[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "D101Ctrl/GGIO1.Ind3[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "D101Ctrl/GGIO1.Ind4[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "D101Ctrl/GGIO1.Ind5[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "D101Ctrl/GGIO1.Ind6[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "D101Ctrl/GGIO1.Ind7[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "D101Ctrl/GGIO2.Ind[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "D101Ctrl/GGIO2.Ind1[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "D101Ctrl/GGIO2.Ind2[ST]"
+            },
+            {
+                "id": 11,
+                "fcda": "D101Ctrl/GGIO2.Ind3[ST]"
+            },
+            {
+                "id": 12,
+                "fcda": "D101Ctrl/GGIO2.Ind4[ST]"
+            },
+            {
+                "id": 13,
+                "fcda": "D101Ctrl/GGIO2.Ind5[ST]"
+            },
+            {
+                "id": 14,
+                "fcda": "D101Ctrl/GGIO2.Ind6[ST]"
+            },
+            {
+                "id": 15,
+                "fcda": "D101Ctrl/GGIO2.Ind7[ST]"
+            },
+            {
+                "id": 16,
+                "fcda": "D101Ctrl/GGIO3.Ind[ST]"
+            },
+            {
+                "id": 17,
+                "fcda": "D101Ctrl/GGIO3.Ind1[ST]"
+            },
+            {
+                "id": 18,
+                "fcda": "D101Ctrl/GGIO3.Ind2[ST]"
+            },
+            {
+                "id": 19,
+                "fcda": "D101Ctrl/GGIO3.Ind3[ST]"
+            },
+            {
+                "id": 20,
+                "fcda": "D101Ctrl/GGIO3.Ind4[ST]"
+            },
+            {
+                "id": 21,
+                "fcda": "D101Ctrl/GGIO3.Ind5[ST]"
+            },
+            {
+                "id": 22,
+                "fcda": "D101Ctrl/GGIO3.Ind6[ST]"
+            },
+            {
+                "id": 23,
+                "fcda": "D101Ctrl/GGIO3.Ind7[ST]"
+            },
+            {
+                "id": 24,
+                "fcda": "D101Ctrl/GGIO4.Ind[ST]"
+            },
+            {
+                "id": 25,
+                "fcda": "D101Ctrl/GGIO4.Ind1[ST]"
+            },
+            {
+                "id": 26,
+                "fcda": "D101Ctrl/GGIO4.Ind2[ST]"
+            },
+            {
+                "id": 27,
+                "fcda": "D101Ctrl/GGIO4.Ind3[ST]"
+            },
+            {
+                "id": 28,
+                "fcda": "D101Ctrl/GGIO4.Ind4[ST]"
+            },
+            {
+                "id": 29,
+                "fcda": "D101Ctrl/GGIO4.Ind5[ST]"
+            },
+            {
+                "id": 30,
+                "fcda": "D101Ctrl/GGIO4.Ind6[ST]"
+            },
+            {
+                "id": 31,
+                "fcda": "D101Ctrl/GGIO4.Ind7[ST]"
+            },
+            {
+                "id": 32,
+                "fcda": "D101Ctrl/GGIO5.Ind[ST]"
+            },
+            {
+                "id": 33,
+                "fcda": "D101Ctrl/GGIO5.Ind1[ST]"
+            },
+            {
+                "id": 34,
+                "fcda": "D101Ctrl/GGIO5.Ind2[ST]"
+            },
+            {
+                "id": 35,
+                "fcda": "D101Ctrl/GGIO5.Ind3[ST]"
+            },
+            {
+                "id": 36,
+                "fcda": "D101Ctrl/GGIO5.Ind4[ST]"
+            },
+            {
+                "id": 37,
+                "fcda": "D101Ctrl/GGIO5.Ind5[ST]"
+            },
+            {
+                "id": 38,
+                "fcda": "D101Ctrl/GGIO5.Ind6[ST]"
+            },
+            {
+                "id": 39,
+                "fcda": "D101Ctrl/GGIO5.Ind7[ST]"
+            },
+            {
+                "id": 40,
+                "fcda": "D101Ctrl/GGIO6.Ind[ST]"
+            },
+            {
+                "id": 41,
+                "fcda": "D101Ctrl/GGIO6.Ind1[ST]"
+            },
+            {
+                "id": 42,
+                "fcda": "D101Ctrl/GGIO6.Ind2[ST]"
+            },
+            {
+                "id": 43,
+                "fcda": "D101Ctrl/GGIO6.Ind3[ST]"
+            },
+            {
+                "id": 44,
+                "fcda": "D101Ctrl/GGIO6.Ind4[ST]"
+            },
+            {
+                "id": 45,
+                "fcda": "D101Ctrl/GGIO6.Ind5[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "D101Ctrl/LLN0$Dinsb",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/GGIO6.Ind6[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "D101Ctrl/GGIO6.Ind7[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "D101Ctrl/GGIO7.Ind[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "D101Ctrl/GGIO7.Ind1[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "D101Ctrl/GGIO7.Ind2[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "D101Ctrl/GGIO7.Ind3[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "D101Ctrl/GGIO7.Ind4[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "D101Ctrl/GGIO7.Ind5[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "D101Ctrl/GGIO7.Ind6[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "D101Ctrl/GGIO7.Ind7[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "D101Ctrl/GGIO8.Ind[ST]"
+            },
+            {
+                "id": 11,
+                "fcda": "D101Ctrl/GGIO8.Ind1[ST]"
+            },
+            {
+                "id": 12,
+                "fcda": "D101Ctrl/GGIO8.Ind2[ST]"
+            },
+            {
+                "id": 13,
+                "fcda": "D101Ctrl/GGIO8.Ind3[ST]"
+            },
+            {
+                "id": 14,
+                "fcda": "D101Ctrl/GGIO8.Ind4[ST]"
+            },
+            {
+                "id": 15,
+                "fcda": "D101Ctrl/GGIO8.Ind5[ST]"
+            },
+            {
+                "id": 16,
+                "fcda": "D101Ctrl/GGIO8.Ind6[ST]"
+            },
+            {
+                "id": 17,
+                "fcda": "D101Ctrl/GGIO8.Ind7[ST]"
+            },
+            {
+                "id": 18,
+                "fcda": "D101Ctrl/GGIO9.Ind[ST]"
+            },
+            {
+                "id": 19,
+                "fcda": "D101Ctrl/GGIO9.Ind1[ST]"
+            },
+            {
+                "id": 20,
+                "fcda": "D101Ctrl/GGIO9.Ind2[ST]"
+            },
+            {
+                "id": 21,
+                "fcda": "D101Ctrl/GGIO9.Ind3[ST]"
+            },
+            {
+                "id": 22,
+                "fcda": "D101Ctrl/XCBR1.Pos[ST]"
+            },
+            {
+                "id": 23,
+                "fcda": "D101Ctrl/XCBR2.Pos[ST]"
+            },
+            {
+                "id": 24,
+                "fcda": "D101Ctrl/XSWI3.Pos[ST]"
+            },
+            {
+                "id": 25,
+                "fcda": "D101Ctrl/XSWI4.Pos[ST]"
+            },
+            {
+                "id": 26,
+                "fcda": "D101Ctrl/XSWI5.Pos[ST]"
+            },
+            {
+                "id": 27,
+                "fcda": "D101Ctrl/XSWI6.Pos[ST]"
+            },
+            {
+                "id": 28,
+                "fcda": "D101Ctrl/XSWI7.Pos[ST]"
+            },
+            {
+                "id": 29,
+                "fcda": "D101Ctrl/XSWI8.Pos[ST]"
+            },
+            {
+                "id": 30,
+                "fcda": "D101Ctrl/CILO1.EnaOpn[ST]"
+            },
+            {
+                "id": 31,
+                "fcda": "D101Ctrl/CILO1.EnaCls[ST]"
+            },
+            {
+                "id": 32,
+                "fcda": "D101Ctrl/CILO2.EnaOpn[ST]"
+            },
+            {
+                "id": 33,
+                "fcda": "D101Ctrl/CILO2.EnaCls[ST]"
+            },
+            {
+                "id": 34,
+                "fcda": "D101Ctrl/CILO3.EnaOpn[ST]"
+            },
+            {
+                "id": 35,
+                "fcda": "D101Ctrl/CILO3.EnaCls[ST]"
+            },
+            {
+                "id": 36,
+                "fcda": "D101Ctrl/CILO4.EnaOpn[ST]"
+            },
+            {
+                "id": 37,
+                "fcda": "D101Ctrl/CILO4.EnaCls[ST]"
+            },
+            {
+                "id": 38,
+                "fcda": "D101Ctrl/CILO5.EnaOpn[ST]"
+            },
+            {
+                "id": 39,
+                "fcda": "D101Ctrl/CILO5.EnaCls[ST]"
+            },
+            {
+                "id": 40,
+                "fcda": "D101Ctrl/CILO6.EnaOpn[ST]"
+            },
+            {
+                "id": 41,
+                "fcda": "D101Ctrl/CILO6.EnaCls[ST]"
+            },
+            {
+                "id": 42,
+                "fcda": "D101Ctrl/CILO7.EnaOpn[ST]"
+            },
+            {
+                "id": 43,
+                "fcda": "D101Ctrl/CILO7.EnaCls[ST]"
+            },
+            {
+                "id": 44,
+                "fcda": "D101Ctrl/CILO8.EnaOpn[ST]"
+            },
+            {
+                "id": 45,
+                "fcda": "D101Ctrl/CILO8.EnaCls[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "D101Ctrl/LLN0$RemoteVars",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/XCBR1.Pos[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "D101Ctrl/XCBR2.Pos[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "D101Ctrl/XSWI3.Pos[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "D101Ctrl/XSWI4.Pos[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "D101Ctrl/XSWI5.Pos[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "D101Ctrl/XSWI6.Pos[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "D101Ctrl/XSWI7.Pos[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "D101Ctrl/XSWI8.Pos[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "D101Ctrl/LLN0$Measurands01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/RSYN1.DifVClc[MX]"
+            },
+            {
+                "id": 1,
+                "fcda": "D101Ctrl/RSYN1.DifHzClc[MX]"
+            },
+            {
+                "id": 2,
+                "fcda": "D101Ctrl/RSYN1.DifAngClc[MX]"
+            },
+            {
+                "id": 3,
+                "fcda": "D101Ctrl/MMXU1.TotW[MX]"
+            },
+            {
+                "id": 4,
+                "fcda": "D101Ctrl/MMXU1.TotVAr[MX]"
+            },
+            {
+                "id": 5,
+                "fcda": "D101Ctrl/MMXU1.TotVA[MX]"
+            },
+            {
+                "id": 6,
+                "fcda": "D101Ctrl/MMXU1.TotPF[MX]"
+            },
+            {
+                "id": 7,
+                "fcda": "D101Ctrl/MMXU1.Hz[MX]"
+            },
+            {
+                "id": 8,
+                "fcda": "D101Ctrl/MMXU2.Hz[MX]"
+            },
+            {
+                "id": 9,
+                "fcda": "D101Ctrl/MMXU3.TotW[MX]"
+            },
+            {
+                "id": 10,
+                "fcda": "D101Ctrl/MMXU3.TotVAr[MX]"
+            },
+            {
+                "id": 11,
+                "fcda": "D101Ctrl/MMXU3.TotVA[MX]"
+            },
+            {
+                "id": 12,
+                "fcda": "D101Ctrl/MMXU3.TotPF[MX]"
+            },
+            {
+                "id": 13,
+                "fcda": "D101Ctrl/MMXU3.Hz[MX]"
+            },
+            {
+                "id": 14,
+                "fcda": "D101Ctrl/MMXU4.Hz[MX]"
+            },
+            {
+                "id": 15,
+                "fcda": "D101Ctrl/MMXU5.A.phsA[MX]"
+            },
+            {
+                "id": 16,
+                "fcda": "D101Ctrl/MMXU6.A.phsA[MX]"
+            },
+            {
+                "id": 17,
+                "fcda": "D101Ctrl/MMXU7.A.phsA[MX]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "D101Ctrl/LLN0$Measurands02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/RSYN2.DifVClc[MX]"
+            },
+            {
+                "id": 1,
+                "fcda": "D101Ctrl/RSYN2.DifHzClc[MX]"
+            },
+            {
+                "id": 2,
+                "fcda": "D101Ctrl/RSYN2.DifAngClc[MX]"
+            },
+            {
+                "id": 3,
+                "fcda": "D101Ctrl/GGIO1.AnIn[MX]"
+            },
+            {
+                "id": 4,
+                "fcda": "D101Ctrl/GGIO1.AnIn1[MX]"
+            },
+            {
+                "id": 5,
+                "fcda": "D101Ctrl/GGIO1.AnIn2[MX]"
+            },
+            {
+                "id": 6,
+                "fcda": "D101Ctrl/GGIO1.AnIn3[MX]"
+            },
+            {
+                "id": 7,
+                "fcda": "D101Ctrl/MMXU1.PPV.phsAB[MX]"
+            },
+            {
+                "id": 8,
+                "fcda": "D101Ctrl/MMXU1.PPV.phsBC[MX]"
+            },
+            {
+                "id": 9,
+                "fcda": "D101Ctrl/MMXU1.PPV.phsCA[MX]"
+            },
+            {
+                "id": 10,
+                "fcda": "D101Ctrl/MMXU1.PhV.phsA[MX]"
+            },
+            {
+                "id": 11,
+                "fcda": "D101Ctrl/MMXU1.PhV.phsB[MX]"
+            },
+            {
+                "id": 12,
+                "fcda": "D101Ctrl/MMXU1.PhV.phsC[MX]"
+            },
+            {
+                "id": 13,
+                "fcda": "D101Ctrl/MMXU1.PhV.neut[MX]"
+            },
+            {
+                "id": 14,
+                "fcda": "D101Ctrl/MMXU1.A.phsA[MX]"
+            },
+            {
+                "id": 15,
+                "fcda": "D101Ctrl/MMXU1.A.phsB[MX]"
+            },
+            {
+                "id": 16,
+                "fcda": "D101Ctrl/MMXU1.A.phsC[MX]"
+            },
+            {
+                "id": 17,
+                "fcda": "D101Ctrl/MMXU2.PhV.phsA[MX]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "D101Ctrl/LLN0$Measurands03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/GGIO1.AnIn4[MX]"
+            },
+            {
+                "id": 1,
+                "fcda": "D101Ctrl/GGIO1.AnIn5[MX]"
+            },
+            {
+                "id": 2,
+                "fcda": "D101Ctrl/GGIO1.AnIn6[MX]"
+            },
+            {
+                "id": 3,
+                "fcda": "D101Ctrl/GGIO1.AnIn7[MX]"
+            },
+            {
+                "id": 4,
+                "fcda": "D101Ctrl/MMXU3.PPV.phsAB[MX]"
+            },
+            {
+                "id": 5,
+                "fcda": "D101Ctrl/MMXU3.PPV.phsBC[MX]"
+            },
+            {
+                "id": 6,
+                "fcda": "D101Ctrl/MMXU3.PPV.phsCA[MX]"
+            },
+            {
+                "id": 7,
+                "fcda": "D101Ctrl/MMXU3.PhV.phsA[MX]"
+            },
+            {
+                "id": 8,
+                "fcda": "D101Ctrl/MMXU3.PhV.phsB[MX]"
+            },
+            {
+                "id": 9,
+                "fcda": "D101Ctrl/MMXU3.PhV.phsC[MX]"
+            },
+            {
+                "id": 10,
+                "fcda": "D101Ctrl/MMXU3.PhV.neut[MX]"
+            },
+            {
+                "id": 11,
+                "fcda": "D101Ctrl/MMXU3.A.phsA[MX]"
+            },
+            {
+                "id": 12,
+                "fcda": "D101Ctrl/MMXU3.A.phsB[MX]"
+            },
+            {
+                "id": 13,
+                "fcda": "D101Ctrl/MMXU3.A.phsC[MX]"
+            },
+            {
+                "id": 14,
+                "fcda": "D101Ctrl/MMXU4.PhV.phsA[MX]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "D101Ctrl/LLN0$dsTap",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "D101Ctrl/YLTC1.TapChg[ST]"
+            }
+        ]
+    }
+]

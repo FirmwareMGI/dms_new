@@ -1,0 +1,444 @@
+{
+  "iedName": "OH3BCU",
+  "localIP": "192.16.1.37",
+  "port": "102",
+  "control": [
+    {
+      "id": 0,
+      "object": "OH3BCUCONTROL1.LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 1,
+      "object": "OH3BCUCONTROL1.CSWI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 2,
+      "object": "OH3BCUCONTROL1.CSWI1.Pos",
+      "ctlModel": "sbo-with-enhanced-security"
+    },
+    {
+      "id": 3,
+      "object": "OH3BCUCONTROL1.CSWI2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 4,
+      "object": "OH3BCUCONTROL1.CSWI2.Pos",
+      "ctlModel": "sbo-with-enhanced-security"
+    },
+    {
+      "id": 5,
+      "object": "OH3BCUCONTROL1.CSWI3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 6,
+      "object": "OH3BCUCONTROL1.CSWI3.Pos",
+      "ctlModel": "sbo-with-enhanced-security"
+    },
+    {
+      "id": 7,
+      "object": "OH3BCUCONTROL1.CSWI4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 8,
+      "object": "OH3BCUCONTROL1.CSWI4.Pos",
+      "ctlModel": "sbo-with-enhanced-security"
+    },
+    {
+      "id": 9,
+      "object": "OH3BCUCONTROL1.GAPC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 10,
+      "object": "OH3BCUCONTROL1.GAPC1.SPCSO1",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 11,
+      "object": "OH3BCUCONTROL1.GAPC1.SPCSO2",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 12,
+      "object": "OH3BCUCONTROL1.GAPC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 13,
+      "object": "OH3BCUCONTROL1.GAPC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 14,
+      "object": "OH3BCUCONTROL1.GAPC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 15,
+      "object": "OH3BCUCONTROL1.GAPC5.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 16,
+      "object": "OH3BCUCONTROL1.GAPC6.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 17,
+      "object": "OH3BCUCONTROL1.GBAY1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 18,
+      "object": "OH3BCUCONTROL1.GBAY1.Loc",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 19,
+      "object": "OH3BCUCONTROL1.GBAY1.LocSubst",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 20,
+      "object": "OH3BCUCONTROL1.GGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 21,
+      "object": "OH3BCUCONTROL1.GGIO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 22,
+      "object": "OH3BCUCONTROL1.GGIO3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 23,
+      "object": "OH3BCUCONTROL1.GGIO4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 24,
+      "object": "OH3BCUCONTROL1.RSYN1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 25,
+      "object": "OH3BCUCONTROL1.XSWI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 26,
+      "object": "OH3BCUCONTROL1.XSWI2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 27,
+      "object": "OH3BCUCONTROL2.LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 28,
+      "object": "OH3BCUCONTROL2.CILO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 29,
+      "object": "OH3BCUCONTROL2.CILO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 30,
+      "object": "OH3BCUCONTROL2.CILO3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 31,
+      "object": "OH3BCUCONTROL2.CILO4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 32,
+      "object": "OH3BCUCONTROL2.GAPC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 33,
+      "object": "OH3BCUCONTROL2.GAPC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 34,
+      "object": "OH3BCUCONTROL2.GAPC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 35,
+      "object": "OH3BCUCONTROL2.GAPC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 36,
+      "object": "OH3BCUCONTROL2.GAPC5.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 37,
+      "object": "OH3BCUCONTROL2.GAPC6.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 38,
+      "object": "OH3BCUCONTROL2.GGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 39,
+      "object": "OH3BCUCONTROL2.GGIO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 40,
+      "object": "OH3BCUCONTROL2.RSYN1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 41,
+      "object": "OH3BCUCONTROL2.RSYN2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 42,
+      "object": "OH3BCUCONTROL2.RSYN2.SGEna1",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 43,
+      "object": "OH3BCUCONTROL2.XCBR1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 44,
+      "object": "OH3BCUCONTROL2.XCBR1.Pos",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 45,
+      "object": "OH3BCUCONTROL2.XSWI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 46,
+      "object": "OH3BCUCONTROL2.XSWI1.Pos",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 47,
+      "object": "OH3BCUCONTROL2.XSWI3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 48,
+      "object": "OH3BCULD0.LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 49,
+      "object": "OH3BCULD0.LDBI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 50,
+      "object": "OH3BCULD0.LDBI1.ODDBSw",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 51,
+      "object": "OH3BCUMEASUREMENT1.LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 52,
+      "object": "OH3BCUMEASUREMENT1.barMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 53,
+      "object": "OH3BCUMEASUREMENT1.powMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 54,
+      "object": "OH3BCUMEASUREMENT1.rmsMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 55,
+      "object": "OH3BCUSYSTEM.LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security"
+    },
+    {
+      "id": 56,
+      "object": "OH3BCUSYSTEM.C26xLDIA1.Mod",
+      "ctlModel": "status-only"
+    }
+  ],
+  "reports": [
+    {
+      "id": 0,
+      "dataSetReference": "OH3BCUCONTROL1/LLN0$LLN0URptStDs",
+      "rcb": "OH3BCUCONTROL1/LLN0$BR$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 1,
+      "dataSetReference": "OH3BCUCONTROL1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL1/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 2,
+      "dataSetReference": "OH3BCUCONTROL1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL1/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 3,
+      "dataSetReference": "OH3BCUCONTROL1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL1/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 4,
+      "dataSetReference": "OH3BCUCONTROL1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL1/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 5,
+      "dataSetReference": "OH3BCUCONTROL2/LLN0$LLN0URptStDs",
+      "rcb": "OH3BCUCONTROL2/LLN0$BR$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 6,
+      "dataSetReference": "OH3BCUCONTROL2/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL2/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 7,
+      "dataSetReference": "OH3BCUCONTROL2/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL2/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 8,
+      "dataSetReference": "OH3BCUCONTROL2/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL2/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 9,
+      "dataSetReference": "OH3BCUCONTROL2/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUCONTROL2/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 10,
+      "dataSetReference": "OH3BCULD0/LLN0$LLN0URptStDs",
+      "rcb": "OH3BCULD0/LLN0$BR$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 11,
+      "dataSetReference": "OH3BCULD0/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCULD0/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 12,
+      "dataSetReference": "OH3BCULD0/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCULD0/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 13,
+      "dataSetReference": "OH3BCULD0/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCULD0/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 14,
+      "dataSetReference": "OH3BCULD0/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCULD0/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 15,
+      "dataSetReference": "OH3BCUMEASUREMENT1/LLN0$LLN0URptStDs",
+      "rcb": "OH3BCUMEASUREMENT1/LLN0$BR$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 16,
+      "dataSetReference": "OH3BCUMEASUREMENT1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUMEASUREMENT1/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 17,
+      "dataSetReference": "OH3BCUMEASUREMENT1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUMEASUREMENT1/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 18,
+      "dataSetReference": "OH3BCUMEASUREMENT1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUMEASUREMENT1/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 19,
+      "dataSetReference": "OH3BCUMEASUREMENT1/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUMEASUREMENT1/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 20,
+      "dataSetReference": "OH3BCUSYSTEM/LLN0$LLN0URptStDs",
+      "rcb": "OH3BCUSYSTEM/LLN0$BR$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 21,
+      "dataSetReference": "OH3BCUSYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUSYSTEM/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 22,
+      "dataSetReference": "OH3BCUSYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUSYSTEM/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 23,
+      "dataSetReference": "OH3BCUSYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUSYSTEM/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 24,
+      "dataSetReference": "OH3BCUSYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "OH3BCUSYSTEM/LLN0$BR$brcbST04",
+      "isEnable": false
+    }
+  ]
+}

@@ -1,0 +1,848 @@
+{
+  "iedName": "GRESIK2",
+  "localIP": "10.91.82.72",
+  "port": "102",
+  "control": [
+    {
+      "id": 0,
+      "object": "GRESIK2Control.LLN0.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 1,
+      "object": "GRESIK2Control.LLN0.AscMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 2,
+      "object": "GRESIK2Control.LLN0.ArcMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 3,
+      "object": "GRESIK2Control.LLN0.PsbMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 4,
+      "object": "GRESIK2Control.ArcRREC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 5,
+      "object": "GRESIK2Control.AscRSYN1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 6,
+      "object": "GRESIK2Control.AscRSYN2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 7,
+      "object": "GRESIK2Control.CILO1.Mod",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 8,
+      "object": "GRESIK2Control.CILO2.Mod",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 9,
+      "object": "GRESIK2Control.CILO3.Mod",
+      "ctlModel": "direct-with-normal-security"
+    },
+    {
+      "id": 10,
+      "object": "GRESIK2Control.OstRPSB1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 11,
+      "object": "GRESIK2Control.OstRPSB2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 12,
+      "object": "GRESIK2Control.PsbRPSB1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 13,
+      "object": "GRESIK2Control.PsbRPSB2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 14,
+      "object": "GRESIK2Control.PsbRPSB3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 15,
+      "object": "GRESIK2Control.PsbRPSB4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 16,
+      "object": "GRESIK2Control.PsbRPSB5.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 17,
+      "object": "GRESIK2Control.XCBR1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 18,
+      "object": "GRESIK2Control.XCBR1.Pos",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 19,
+      "object": "GRESIK2Control.XCBR1.BlkOpn",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 20,
+      "object": "GRESIK2Control.XCBR1.BlkCls",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 21,
+      "object": "GRESIK2Control.XCBR1.Lock",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 22,
+      "object": "GRESIK2Control.XCBR2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 23,
+      "object": "GRESIK2Control.XCBR2.Pos",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 24,
+      "object": "GRESIK2Control.XCBR2.BlkOpn",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 25,
+      "object": "GRESIK2Control.XCBR2.BlkCls",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 26,
+      "object": "GRESIK2Control.XCBR2.Lock",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 27,
+      "object": "GRESIK2Control.XCBR3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 28,
+      "object": "GRESIK2Control.XCBR3.Pos",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 29,
+      "object": "GRESIK2Control.XCBR3.BlkOpn",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 30,
+      "object": "GRESIK2Control.XCBR3.BlkCls",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 31,
+      "object": "GRESIK2Control.XCBR3.Lock",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 32,
+      "object": "GRESIK2Measurements.LLN0.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 33,
+      "object": "GRESIK2Measurements.PriFouMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 34,
+      "object": "GRESIK2Measurements.PriMMTR1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 35,
+      "object": "GRESIK2Measurements.PriMMTR1.MTRRs",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 36,
+      "object": "GRESIK2Measurements.PriMSQI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 37,
+      "object": "GRESIK2Measurements.PriMSTA1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 38,
+      "object": "GRESIK2Measurements.PriRmsMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 39,
+      "object": "GRESIK2Measurements.PriVcpMSQI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 40,
+      "object": "GRESIK2Measurements.SecFouMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 41,
+      "object": "GRESIK2Measurements.SecMMTR1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 42,
+      "object": "GRESIK2Measurements.SecMMTR1.MTRRs",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 43,
+      "object": "GRESIK2Measurements.SecMSQI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 44,
+      "object": "GRESIK2Measurements.SecMSTA1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 45,
+      "object": "GRESIK2Measurements.SecRmsMMXU1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 46,
+      "object": "GRESIK2Measurements.SecVcpMSQI1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 47,
+      "object": "GRESIK2Protection.LLN0.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 48,
+      "object": "GRESIK2Protection.LLN0.DisMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 49,
+      "object": "GRESIK2Protection.LLN0.OcpMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 50,
+      "object": "GRESIK2Protection.LLN0.NgcMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 51,
+      "object": "GRESIK2Protection.LLN0.EfdMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 52,
+      "object": "GRESIK2Protection.LLN0.SefMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 53,
+      "object": "GRESIK2Protection.LLN0.VtpMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 54,
+      "object": "GRESIK2Protection.LLN0.NvdMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 55,
+      "object": "GRESIK2Protection.LLN0.FrqMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 56,
+      "object": "GRESIK2Protection.LLN0.DfpMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 57,
+      "object": "GRESIK2Protection.LLN0.ThmMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 58,
+      "object": "GRESIK2Protection.LLN0.CbfMod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 59,
+      "object": "GRESIK2Protection.CbfRBRF1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 60,
+      "object": "GRESIK2Protection.CbfRBRF2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 61,
+      "object": "GRESIK2Protection.DfpPFRC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 62,
+      "object": "GRESIK2Protection.DfpPFRC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 63,
+      "object": "GRESIK2Protection.DfpPFRC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 64,
+      "object": "GRESIK2Protection.DfpPFRC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 65,
+      "object": "GRESIK2Protection.DisPDIS1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 66,
+      "object": "GRESIK2Protection.DisPDIS2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 67,
+      "object": "GRESIK2Protection.DisPDIS3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 68,
+      "object": "GRESIK2Protection.DisPDIS4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 69,
+      "object": "GRESIK2Protection.DisPDIS5.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 70,
+      "object": "GRESIK2Protection.DisPSCH1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 71,
+      "object": "GRESIK2Protection.DisPSCH2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 72,
+      "object": "GRESIK2Protection.EfdPTOC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 73,
+      "object": "GRESIK2Protection.EfdPTOC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 74,
+      "object": "GRESIK2Protection.EfdPTOC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 75,
+      "object": "GRESIK2Protection.EfdPTOC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 76,
+      "object": "GRESIK2Protection.FrqPTOF1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 77,
+      "object": "GRESIK2Protection.FrqPTOF2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 78,
+      "object": "GRESIK2Protection.FrqPTUF1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 79,
+      "object": "GRESIK2Protection.FrqPTUF2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 80,
+      "object": "GRESIK2Protection.FrqPTUF3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 81,
+      "object": "GRESIK2Protection.FrqPTUF4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 82,
+      "object": "GRESIK2Protection.NgcPTOC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 83,
+      "object": "GRESIK2Protection.NgcPTOC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 84,
+      "object": "GRESIK2Protection.NgcPTOC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 85,
+      "object": "GRESIK2Protection.NgcPTOC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 86,
+      "object": "GRESIK2Protection.OcpPTOC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 87,
+      "object": "GRESIK2Protection.OcpPTOC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 88,
+      "object": "GRESIK2Protection.OcpPTOC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 89,
+      "object": "GRESIK2Protection.OcpPTOC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 90,
+      "object": "GRESIK2Protection.PTRC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 91,
+      "object": "GRESIK2Protection.SenEftPTOC1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 92,
+      "object": "GRESIK2Protection.SenEftPTOC2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 93,
+      "object": "GRESIK2Protection.SenEftPTOC3.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 94,
+      "object": "GRESIK2Protection.SenEftPTOC4.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 95,
+      "object": "GRESIK2Protection.SenRefPDIF1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 96,
+      "object": "GRESIK2Protection.SofPSOF1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 97,
+      "object": "GRESIK2Protection.ThmPTTR1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 98,
+      "object": "GRESIK2Protection.ThmPTTR1.MTRRs",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 99,
+      "object": "GRESIK2Protection.TorPSOF1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 100,
+      "object": "GRESIK2Protection.VtpCmpPTOV1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 101,
+      "object": "GRESIK2Protection.VtpCmpPTOV2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 102,
+      "object": "GRESIK2Protection.VtpPhsPTOV1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 103,
+      "object": "GRESIK2Protection.VtpPhsPTOV2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 104,
+      "object": "GRESIK2Protection.VtpPhsPTUV1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 105,
+      "object": "GRESIK2Protection.VtpPhsPTUV2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 106,
+      "object": "GRESIK2Protection.VtpResPTOV1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 107,
+      "object": "GRESIK2Protection.VtpResPTOV2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 108,
+      "object": "GRESIK2Records.LLN0.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 109,
+      "object": "GRESIK2Records.RDRE1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 110,
+      "object": "GRESIK2Records.RFLO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 111,
+      "object": "GRESIK2System.LLN0.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 112,
+      "object": "GRESIK2System.LLN0.LEDRs",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 113,
+      "object": "GRESIK2System.AlmGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 114,
+      "object": "GRESIK2System.FnkGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 115,
+      "object": "GRESIK2System.GosGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 116,
+      "object": "GRESIK2System.GosGGIO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 117,
+      "object": "GRESIK2System.ImfInpGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 118,
+      "object": "GRESIK2System.ImfInpGGIO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 119,
+      "object": "GRESIK2System.ImfOutGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 120,
+      "object": "GRESIK2System.ImfOutGGIO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 121,
+      "object": "GRESIK2System.LedGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 122,
+      "object": "GRESIK2System.LedGGIO2.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 123,
+      "object": "GRESIK2System.OptGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 124,
+      "object": "GRESIK2System.OrdRunGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 125,
+      "object": "GRESIK2System.PloGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 126,
+      "object": "GRESIK2System.PloGGIO1.SPCSO1",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 127,
+      "object": "GRESIK2System.PloGGIO1.SPCSO2",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 128,
+      "object": "GRESIK2System.PloGGIO1.SPCSO3",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 129,
+      "object": "GRESIK2System.PloGGIO1.SPCSO4",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 130,
+      "object": "GRESIK2System.PloGGIO1.SPCSO5",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 131,
+      "object": "GRESIK2System.PloGGIO1.SPCSO6",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 132,
+      "object": "GRESIK2System.PloGGIO1.SPCSO7",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 133,
+      "object": "GRESIK2System.PloGGIO1.SPCSO8",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 134,
+      "object": "GRESIK2System.PloGGIO1.SPCSO9",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 135,
+      "object": "GRESIK2System.PloGGIO1.SPCSO10",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 136,
+      "object": "GRESIK2System.PloGGIO1.SPCSO11",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 137,
+      "object": "GRESIK2System.PloGGIO1.SPCSO12",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 138,
+      "object": "GRESIK2System.PloGGIO1.SPCSO13",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 139,
+      "object": "GRESIK2System.PloGGIO1.SPCSO14",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 140,
+      "object": "GRESIK2System.PloGGIO1.SPCSO15",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 141,
+      "object": "GRESIK2System.PloGGIO1.SPCSO16",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 142,
+      "object": "GRESIK2System.PloGGIO1.SPCSO17",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 143,
+      "object": "GRESIK2System.PloGGIO1.SPCSO18",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 144,
+      "object": "GRESIK2System.PloGGIO1.SPCSO19",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 145,
+      "object": "GRESIK2System.PloGGIO1.SPCSO20",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 146,
+      "object": "GRESIK2System.PloGGIO1.SPCSO21",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 147,
+      "object": "GRESIK2System.PloGGIO1.SPCSO22",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 148,
+      "object": "GRESIK2System.PloGGIO1.SPCSO23",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 149,
+      "object": "GRESIK2System.PloGGIO1.SPCSO24",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 150,
+      "object": "GRESIK2System.PloGGIO1.SPCSO25",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 151,
+      "object": "GRESIK2System.PloGGIO1.SPCSO26",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 152,
+      "object": "GRESIK2System.PloGGIO1.SPCSO27",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 153,
+      "object": "GRESIK2System.PloGGIO1.SPCSO28",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 154,
+      "object": "GRESIK2System.PloGGIO1.SPCSO29",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 155,
+      "object": "GRESIK2System.PloGGIO1.SPCSO30",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 156,
+      "object": "GRESIK2System.PloGGIO1.SPCSO31",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 157,
+      "object": "GRESIK2System.PloGGIO1.SPCSO32",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 158,
+      "object": "GRESIK2System.RlyGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 159,
+      "object": "GRESIK2System.UsrGGIO1.Mod",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 160,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO1",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 161,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO2",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 162,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO3",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 163,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO4",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 164,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO5",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 165,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO6",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 166,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO7",
+      "ctlModel": "status-only"
+    },
+    {
+      "id": 167,
+      "object": "GRESIK2System.UsrGGIO1.DPCSO8",
+      "ctlModel": "status-only"
+    }
+  ],
+  "reports": []
+}

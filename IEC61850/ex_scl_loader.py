@@ -23,17 +23,20 @@ class IED_PARSING:
         self.filePath = filePath
         self.scd = scl_loader.SCD_handler(self.filePath, False)
         self.iedName = self.scd.get_IED_names_list()
-        self.iedName = self.iedName[0]
+        self.iedName = self.iedName[0] if self.iedName and self.iedName[0] is not None else " "
+        print("IED Name: ", self.iedName)
         self.ied = self.scd.get_IED_by_name(self.iedName)
         self.ip = self.scd.get_IP_Adr(self.iedName)
         self.ap = self.ip[1]
         self.ip = self.ip[0]
+        print("MASUK SINI")
         self.LNobj = self.get_LN_obj()
         self.LD_name = self.get_LN_name()
         # self.LDobj = self.ied.get_LD_by_inst(LDFilter, self.ip)
         self.DAobj = self.ied.get_DA_leaf_nodes()
         self.all_domain_dict = []
         self.all_domain = self.getAllDomainID()
+        
 
     # def getFC(self):
     #     print(self.ied.get_name_subtree('MX'))

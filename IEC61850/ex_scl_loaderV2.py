@@ -204,6 +204,7 @@
 import json
 import os
 from scl_loader import SCD_handler
+from scl_loader import LN
 from collections import defaultdict
 
 
@@ -263,7 +264,13 @@ class IEDPARSER:
         try:
             for ld in self.lds:
                 ld_name = ld.name
+                # ld_childern = ld.get_children_LDs(self.ied.ap)  # Ensure LD is fully loaded
+                # ld_ln = ld.get_children()
+                # print("ld Name:", ld_ln[0].get_children()[0].name)
+                # break
                 report_controls = ld.get_reportcontrols()
+                # print(f"Processing LD: {ld_name} with {len(report_controls)} ReportControls")
+                # break
                 data_set = ld.get_datasets()
                 # print(f"Data Set: {data_set}")
 
@@ -300,6 +307,7 @@ class IEDPARSER:
                     continue
 
                 for rc in report_controls:
+                    print(f"Processing ReportControl: {rc.name}")
                     lnclass = getattr(rc.parent(), "lnClass", "")
                     dataset = rc.datSet
                     dataset_ref = f"{self.ied_name[0]}{ld_name}/{lnclass}${dataset}"
@@ -323,6 +331,16 @@ class IEDPARSER:
                         "isEnable": False
                     })
                     self.report_id_counter += 1
+            else:
+                prefix = f"{self.ied_name[0]}{ld_name}/LLN0$BR$"
+                cb_ref = f"{prefix}{rc.name}"
+                self.host_reports.append({
+                        "id": self.report_id_counter,
+                        "dataSetReference": dataset_ref,
+                        "rcb": cb_ref,
+                        "isEnable": False
+                    })
+                self.report_id_counter += 1
         except Exception as e:
             print(f"❌ Error in RC block processing for {rc.name}: {e}")
 
@@ -412,10 +430,19 @@ def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output"):
 
 
 
-# # 🔧 Example usage
+# 🔧 Example usage
 # if __name__ == "__main__":
-#     # folder_path = "scl_files"
-#     # process_all_scl_files_in_folder(folder_path)
+    # folder_path = "scl_files"
+    # process_all_scl_files_in_folder(folder_path)
+    # upload_dir = "/var/www/html/dms_setting/upload"
 
-#     # Or test single file
-#     process_single_scl_file("/var/www/html/dms_setting/upload/scl_1.icd")
+    # # Or test single file
+    # # process_single_scl_file("/var/www/html/dms_setting/upload/scl_11.iid")
+    # for filename in os.listdir(upload_dir):
+    #     file_path = os.path.join(upload_dir, filename)
+
+    #     # Make sure it's a file (not a subdirectory)
+    #     if os.path.isfile(file_path):
+    #         process_single_scl_file(file_path)
+    # process_all_scl_files_in_folder("/var/www/html/dms_setting/upload")
+
