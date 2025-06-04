@@ -7,7 +7,7 @@ for i in range(8):
 
     connection = buff_client.connect()        
     if connection:
-        baca = buff_client.read_holding_registers(address = 15616,count =36,unit= 1)
+        baca = buff_client.read_holding_registers(address = 0,count =10,unit= 1)
     
         if baca.isError():
             print('Port'+str(i)+' RS-485 tidak dapat menerima data')

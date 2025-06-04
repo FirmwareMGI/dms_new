@@ -1,0 +1,1595 @@
+[
+    {
+        "dataSetReference": "BCUCPLCONTROL1/LLN0$LLN0BRptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL1/LPHD1.OutOv1[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL1/LPHD1.OutOv2[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL1/LPHD1.OutOv3[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL1/LPHD1.OutOv4[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLCONTROL1/LPHD1.PhyHealth[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLCONTROL1/LPHD1.Proxy[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLCONTROL1/LLN0.Mod[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLCONTROL1/LLN0.Loc[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLCONTROL1/CILO1.Mod[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLCONTROL1/CILO1.EnaCls[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "BCUCPLCONTROL1/CILO1.EnaOpn[ST]"
+            },
+            {
+                "id": 11,
+                "fcda": "BCUCPLCONTROL1/CILO2.Mod[ST]"
+            },
+            {
+                "id": 12,
+                "fcda": "BCUCPLCONTROL1/CILO2.EnaCls[ST]"
+            },
+            {
+                "id": 13,
+                "fcda": "BCUCPLCONTROL1/CILO2.EnaOpn[ST]"
+            },
+            {
+                "id": 14,
+                "fcda": "BCUCPLCONTROL1/CSWI1.Mod[ST]"
+            },
+            {
+                "id": 15,
+                "fcda": "BCUCPLCONTROL1/CSWI1.IndSys1[ST]"
+            },
+            {
+                "id": 16,
+                "fcda": "BCUCPLCONTROL1/CSWI1.IndSys2[ST]"
+            },
+            {
+                "id": 17,
+                "fcda": "BCUCPLCONTROL1/CSWI1.IndSys3[ST]"
+            },
+            {
+                "id": 18,
+                "fcda": "BCUCPLCONTROL1/CSWI1.Pos[ST]"
+            },
+            {
+                "id": 19,
+                "fcda": "BCUCPLCONTROL1/CSWI2.Mod[ST]"
+            },
+            {
+                "id": 20,
+                "fcda": "BCUCPLCONTROL1/CSWI2.IndSys1[ST]"
+            },
+            {
+                "id": 21,
+                "fcda": "BCUCPLCONTROL1/CSWI2.IndSys2[ST]"
+            },
+            {
+                "id": 22,
+                "fcda": "BCUCPLCONTROL1/CSWI2.IndSys3[ST]"
+            },
+            {
+                "id": 23,
+                "fcda": "BCUCPLCONTROL1/CSWI2.Pos[ST]"
+            },
+            {
+                "id": 24,
+                "fcda": "BCUCPLCONTROL1/CSWI3.Mod[ST]"
+            },
+            {
+                "id": 25,
+                "fcda": "BCUCPLCONTROL1/CSWI3.IndSys1[ST]"
+            },
+            {
+                "id": 26,
+                "fcda": "BCUCPLCONTROL1/CSWI3.Pos[ST]"
+            },
+            {
+                "id": 27,
+                "fcda": "BCUCPLCONTROL1/CSWI9.Mod[ST]"
+            },
+            {
+                "id": 28,
+                "fcda": "BCUCPLCONTROL1/CSWI9.Pos[ST]"
+            },
+            {
+                "id": 29,
+                "fcda": "BCUCPLCONTROL1/GBAY1.Mod[ST]"
+            },
+            {
+                "id": 30,
+                "fcda": "BCUCPLCONTROL1/GBAY1.EnaSBMC[ST]"
+            },
+            {
+                "id": 31,
+                "fcda": "BCUCPLCONTROL1/GBAY1.Loc[ST]"
+            },
+            {
+                "id": 32,
+                "fcda": "BCUCPLCONTROL1/GBAY1.OrdRun[ST]"
+            },
+            {
+                "id": 33,
+                "fcda": "BCUCPLCONTROL1/GGIO1.Mod[ST]"
+            },
+            {
+                "id": 34,
+                "fcda": "BCUCPLCONTROL1/GGIO10.Mod[ST]"
+            },
+            {
+                "id": 35,
+                "fcda": "BCUCPLCONTROL1/GGIO10.Ind1[ST]"
+            },
+            {
+                "id": 36,
+                "fcda": "BCUCPLCONTROL1/GGIO10.Ind2[ST]"
+            },
+            {
+                "id": 37,
+                "fcda": "BCUCPLCONTROL1/GGIO10.Ind3[ST]"
+            },
+            {
+                "id": 38,
+                "fcda": "BCUCPLCONTROL1/GGIO10.Ind6[ST]"
+            },
+            {
+                "id": 39,
+                "fcda": "BCUCPLCONTROL1/GGIO3.Mod[ST]"
+            },
+            {
+                "id": 40,
+                "fcda": "BCUCPLCONTROL1/GGIO3.Ind1[ST]"
+            },
+            {
+                "id": 41,
+                "fcda": "BCUCPLCONTROL1/GGIO3.Ind2[ST]"
+            },
+            {
+                "id": 42,
+                "fcda": "BCUCPLCONTROL1/GGIO4.Mod[ST]"
+            },
+            {
+                "id": 43,
+                "fcda": "BCUCPLCONTROL1/GGIO4.DPCSO1[ST]"
+            },
+            {
+                "id": 44,
+                "fcda": "BCUCPLCONTROL1/GGIO4.DPCSO2[ST]"
+            },
+            {
+                "id": 45,
+                "fcda": "BCUCPLCONTROL1/GGIO4.DPCSO3[ST]"
+            },
+            {
+                "id": 46,
+                "fcda": "BCUCPLCONTROL1/GGIO4.Ind1[ST]"
+            },
+            {
+                "id": 47,
+                "fcda": "BCUCPLCONTROL1/GGIO4.Ind5[ST]"
+            },
+            {
+                "id": 48,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Mod[ST]"
+            },
+            {
+                "id": 49,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind1[ST]"
+            },
+            {
+                "id": 50,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind2[ST]"
+            },
+            {
+                "id": 51,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind21[ST]"
+            },
+            {
+                "id": 52,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind22[ST]"
+            },
+            {
+                "id": 53,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind3[ST]"
+            },
+            {
+                "id": 54,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind4[ST]"
+            },
+            {
+                "id": 55,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind5[ST]"
+            },
+            {
+                "id": 56,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind6[ST]"
+            },
+            {
+                "id": 57,
+                "fcda": "BCUCPLCONTROL1/GGIO5.Ind8[ST]"
+            },
+            {
+                "id": 58,
+                "fcda": "BCUCPLCONTROL1/GGIO7.Mod[ST]"
+            },
+            {
+                "id": 59,
+                "fcda": "BCUCPLCONTROL1/GGIO7.Ind1[ST]"
+            },
+            {
+                "id": 60,
+                "fcda": "BCUCPLCONTROL1/GGIO7.Ind18[ST]"
+            },
+            {
+                "id": 61,
+                "fcda": "BCUCPLCONTROL1/GGIO7.Ind2[ST]"
+            },
+            {
+                "id": 62,
+                "fcda": "BCUCPLCONTROL1/GGIO7.Ind3[ST]"
+            },
+            {
+                "id": 63,
+                "fcda": "BCUCPLCONTROL1/GGIO8.Mod[ST]"
+            },
+            {
+                "id": 64,
+                "fcda": "BCUCPLCONTROL1/GGIO8.Ind17[ST]"
+            },
+            {
+                "id": 65,
+                "fcda": "BCUCPLCONTROL1/GGIO8.Ind2[ST]"
+            },
+            {
+                "id": 66,
+                "fcda": "BCUCPLCONTROL1/GGIO8.Ind25[ST]"
+            },
+            {
+                "id": 67,
+                "fcda": "BCUCPLCONTROL1/GGIO8.Ind42[ST]"
+            },
+            {
+                "id": 68,
+                "fcda": "BCUCPLCONTROL1/GGIO9.Mod[ST]"
+            },
+            {
+                "id": 69,
+                "fcda": "BCUCPLCONTROL1/GGIO9.Ind1[ST]"
+            },
+            {
+                "id": 70,
+                "fcda": "BCUCPLCONTROL1/GGSS1.Mod[ST]"
+            },
+            {
+                "id": 71,
+                "fcda": "BCUCPLCONTROL1/GGSS1.LocSubst[ST]"
+            },
+            {
+                "id": 72,
+                "fcda": "BCUCPLCONTROL1/RSYN1.Mod[ST]"
+            },
+            {
+                "id": 73,
+                "fcda": "BCUCPLCONTROL1/RSYN1.BusVC[ST]"
+            },
+            {
+                "id": 74,
+                "fcda": "BCUCPLCONTROL1/RSYN1.ClsOpSt[ST]"
+            },
+            {
+                "id": 75,
+                "fcda": "BCUCPLCONTROL1/RSYN1.Ena[ST]"
+            },
+            {
+                "id": 76,
+                "fcda": "BCUCPLCONTROL1/RSYN1.EnaSec[ST]"
+            },
+            {
+                "id": 77,
+                "fcda": "BCUCPLCONTROL1/RSYN1.Rel[ST]"
+            },
+            {
+                "id": 78,
+                "fcda": "BCUCPLCONTROL1/RSYN1.SynPrg[ST]"
+            },
+            {
+                "id": 79,
+                "fcda": "BCUCPLCONTROL1/RSYN1.VAbs[ST]"
+            },
+            {
+                "id": 80,
+                "fcda": "BCUCPLCONTROL1/RSYN1.VP[ST]"
+            },
+            {
+                "id": 81,
+                "fcda": "BCUCPLCONTROL1/RSYN1.VRefAbs[ST]"
+            },
+            {
+                "id": 82,
+                "fcda": "BCUCPLCONTROL1/RSYN1.VRefInd[ST]"
+            },
+            {
+                "id": 83,
+                "fcda": "BCUCPLCONTROL1/XSWI1.Mod[ST]"
+            },
+            {
+                "id": 84,
+                "fcda": "BCUCPLCONTROL1/XSWI1.BlkCls[ST]"
+            },
+            {
+                "id": 85,
+                "fcda": "BCUCPLCONTROL1/XSWI1.BlkOpn[ST]"
+            },
+            {
+                "id": 86,
+                "fcda": "BCUCPLCONTROL1/XSWI1.Loc[ST]"
+            },
+            {
+                "id": 87,
+                "fcda": "BCUCPLCONTROL1/XSWI1.OpCnt[ST]"
+            },
+            {
+                "id": 88,
+                "fcda": "BCUCPLCONTROL1/XSWI1.Pos[ST]"
+            },
+            {
+                "id": 89,
+                "fcda": "BCUCPLCONTROL1/XSWI1.SwOpCap[ST]"
+            },
+            {
+                "id": 90,
+                "fcda": "BCUCPLCONTROL1/XSWI1.SwTyp[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLCONTROL1/LLN0$LLN0URptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL1/LLN0.Mod[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL1/LLN0.Beh[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL1/LLN0.Health[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL1/LLN0.Loc[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLCONTROL1/LLN0$dsGooseST",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL1/CSWI3.Pos[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL1/CSWI3.Pos[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL1/GAPC11.SPCSO2[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL1/GAPC11.SPCSO2[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLCONTROL1/GGSS1.LocSubst[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLCONTROL1/GGSS1.LocSubst[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLCONTROL1/GAPC14.IndSys1[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLCONTROL1/GAPC14.IndSys1[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLCONTROL1/GAPC14.IndSys2[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLCONTROL1/GAPC14.IndSys2[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLCONTROL2/LLN0$LLN0BRptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL2/LPHD1.OutOv1[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL2/LPHD1.OutOv2[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL2/LPHD1.OutOv3[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL2/LPHD1.OutOv4[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLCONTROL2/LPHD1.PhyHealth[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLCONTROL2/LPHD1.Proxy[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLCONTROL2/LLN0.Mod[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLCONTROL2/LLN0.Loc[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLCONTROL2/CILO3.Mod[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLCONTROL2/CILO3.EnaCls[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "BCUCPLCONTROL2/CILO3.EnaOpn[ST]"
+            },
+            {
+                "id": 11,
+                "fcda": "BCUCPLCONTROL2/GAPC11.Mod[ST]"
+            },
+            {
+                "id": 12,
+                "fcda": "BCUCPLCONTROL2/GAPC11.Op[ST]"
+            },
+            {
+                "id": 13,
+                "fcda": "BCUCPLCONTROL2/GAPC11.SPCSO2[ST]"
+            },
+            {
+                "id": 14,
+                "fcda": "BCUCPLCONTROL2/GAPC11.Str[ST]"
+            },
+            {
+                "id": 15,
+                "fcda": "BCUCPLCONTROL2/GAPC12.Mod[ST]"
+            },
+            {
+                "id": 16,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys1[ST]"
+            },
+            {
+                "id": 17,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys2[ST]"
+            },
+            {
+                "id": 18,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys3[ST]"
+            },
+            {
+                "id": 19,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys4[ST]"
+            },
+            {
+                "id": 20,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys5[ST]"
+            },
+            {
+                "id": 21,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys6[ST]"
+            },
+            {
+                "id": 22,
+                "fcda": "BCUCPLCONTROL2/GAPC12.IndSys7[ST]"
+            },
+            {
+                "id": 23,
+                "fcda": "BCUCPLCONTROL2/GAPC12.Op[ST]"
+            },
+            {
+                "id": 24,
+                "fcda": "BCUCPLCONTROL2/GAPC12.Str[ST]"
+            },
+            {
+                "id": 25,
+                "fcda": "BCUCPLCONTROL2/GAPC13.Mod[ST]"
+            },
+            {
+                "id": 26,
+                "fcda": "BCUCPLCONTROL2/GAPC13.Ind1[ST]"
+            },
+            {
+                "id": 27,
+                "fcda": "BCUCPLCONTROL2/GAPC13.Ind2[ST]"
+            },
+            {
+                "id": 28,
+                "fcda": "BCUCPLCONTROL2/GAPC13.Op[ST]"
+            },
+            {
+                "id": 29,
+                "fcda": "BCUCPLCONTROL2/GAPC13.Str[ST]"
+            },
+            {
+                "id": 30,
+                "fcda": "BCUCPLCONTROL2/GAPC14.Mod[ST]"
+            },
+            {
+                "id": 31,
+                "fcda": "BCUCPLCONTROL2/GAPC14.IndSys1[ST]"
+            },
+            {
+                "id": 32,
+                "fcda": "BCUCPLCONTROL2/GAPC14.IndSys2[ST]"
+            },
+            {
+                "id": 33,
+                "fcda": "BCUCPLCONTROL2/GAPC14.Op[ST]"
+            },
+            {
+                "id": 34,
+                "fcda": "BCUCPLCONTROL2/GAPC14.Str[ST]"
+            },
+            {
+                "id": 35,
+                "fcda": "BCUCPLCONTROL2/GAPC15.Mod[ST]"
+            },
+            {
+                "id": 36,
+                "fcda": "BCUCPLCONTROL2/GAPC15.IndSys1[ST]"
+            },
+            {
+                "id": 37,
+                "fcda": "BCUCPLCONTROL2/GAPC15.IndSys2[ST]"
+            },
+            {
+                "id": 38,
+                "fcda": "BCUCPLCONTROL2/GAPC15.IndSys3[ST]"
+            },
+            {
+                "id": 39,
+                "fcda": "BCUCPLCONTROL2/GAPC15.IndSys4[ST]"
+            },
+            {
+                "id": 40,
+                "fcda": "BCUCPLCONTROL2/GAPC15.IndSys5[ST]"
+            },
+            {
+                "id": 41,
+                "fcda": "BCUCPLCONTROL2/GAPC15.Op[ST]"
+            },
+            {
+                "id": 42,
+                "fcda": "BCUCPLCONTROL2/GAPC15.Str[ST]"
+            },
+            {
+                "id": 43,
+                "fcda": "BCUCPLCONTROL2/GAPC16.Mod[ST]"
+            },
+            {
+                "id": 44,
+                "fcda": "BCUCPLCONTROL2/GAPC16.IndSys1[ST]"
+            },
+            {
+                "id": 45,
+                "fcda": "BCUCPLCONTROL2/GAPC16.Op[ST]"
+            },
+            {
+                "id": 46,
+                "fcda": "BCUCPLCONTROL2/GAPC16.Str[ST]"
+            },
+            {
+                "id": 47,
+                "fcda": "BCUCPLCONTROL2/GAPC4.Mod[ST]"
+            },
+            {
+                "id": 48,
+                "fcda": "BCUCPLCONTROL2/GAPC4.Op[ST]"
+            },
+            {
+                "id": 49,
+                "fcda": "BCUCPLCONTROL2/GAPC4.SelOrd1[ST]"
+            },
+            {
+                "id": 50,
+                "fcda": "BCUCPLCONTROL2/GAPC4.SelOrd2[ST]"
+            },
+            {
+                "id": 51,
+                "fcda": "BCUCPLCONTROL2/GAPC4.Str[ST]"
+            },
+            {
+                "id": 52,
+                "fcda": "BCUCPLCONTROL2/GAPC5.Mod[ST]"
+            },
+            {
+                "id": 53,
+                "fcda": "BCUCPLCONTROL2/GAPC5.DPCSO1[ST]"
+            },
+            {
+                "id": 54,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys1[ST]"
+            },
+            {
+                "id": 55,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys10[ST]"
+            },
+            {
+                "id": 56,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys13[ST]"
+            },
+            {
+                "id": 57,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys14[ST]"
+            },
+            {
+                "id": 58,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys2[ST]"
+            },
+            {
+                "id": 59,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys3[ST]"
+            },
+            {
+                "id": 60,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys4[ST]"
+            },
+            {
+                "id": 61,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys5[ST]"
+            },
+            {
+                "id": 62,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys6[ST]"
+            },
+            {
+                "id": 63,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys7[ST]"
+            },
+            {
+                "id": 64,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys8[ST]"
+            },
+            {
+                "id": 65,
+                "fcda": "BCUCPLCONTROL2/GAPC5.IndSys9[ST]"
+            },
+            {
+                "id": 66,
+                "fcda": "BCUCPLCONTROL2/GAPC5.Op[ST]"
+            },
+            {
+                "id": 67,
+                "fcda": "BCUCPLCONTROL2/GAPC5.Str[ST]"
+            },
+            {
+                "id": 68,
+                "fcda": "BCUCPLCONTROL2/GGIO2.Mod[ST]"
+            },
+            {
+                "id": 69,
+                "fcda": "BCUCPLCONTROL2/GGIO2.Ind1[ST]"
+            },
+            {
+                "id": 70,
+                "fcda": "BCUCPLCONTROL2/GGIO2.Ind2[ST]"
+            },
+            {
+                "id": 71,
+                "fcda": "BCUCPLCONTROL2/GGIO3.Mod[ST]"
+            },
+            {
+                "id": 72,
+                "fcda": "BCUCPLCONTROL2/GGIO3.Ind1[ST]"
+            },
+            {
+                "id": 73,
+                "fcda": "BCUCPLCONTROL2/GGIO3.Ind2[ST]"
+            },
+            {
+                "id": 74,
+                "fcda": "BCUCPLCONTROL2/GGIO3.Ind3[ST]"
+            },
+            {
+                "id": 75,
+                "fcda": "BCUCPLCONTROL2/GGIO3.Ind8[ST]"
+            },
+            {
+                "id": 76,
+                "fcda": "BCUCPLCONTROL2/GGIO3.Ind9[ST]"
+            },
+            {
+                "id": 77,
+                "fcda": "BCUCPLCONTROL2/GGIO4.Mod[ST]"
+            },
+            {
+                "id": 78,
+                "fcda": "BCUCPLCONTROL2/GGIO4.Ind1[ST]"
+            },
+            {
+                "id": 79,
+                "fcda": "BCUCPLCONTROL2/GGIO4.Ind2[ST]"
+            },
+            {
+                "id": 80,
+                "fcda": "BCUCPLCONTROL2/GGSS1.Mod[ST]"
+            },
+            {
+                "id": 81,
+                "fcda": "BCUCPLCONTROL2/GGSS1.LocSubst[ST]"
+            },
+            {
+                "id": 82,
+                "fcda": "BCUCPLCONTROL2/RSYN1.Mod[ST]"
+            },
+            {
+                "id": 83,
+                "fcda": "BCUCPLCONTROL2/RSYN1.Rel[ST]"
+            },
+            {
+                "id": 84,
+                "fcda": "BCUCPLCONTROL2/RSYN1.SGEna1[ST]"
+            },
+            {
+                "id": 85,
+                "fcda": "BCUCPLCONTROL2/XCBR1.Mod[ST]"
+            },
+            {
+                "id": 86,
+                "fcda": "BCUCPLCONTROL2/XCBR1.BlkCls[ST]"
+            },
+            {
+                "id": 87,
+                "fcda": "BCUCPLCONTROL2/XCBR1.BlkOpn[ST]"
+            },
+            {
+                "id": 88,
+                "fcda": "BCUCPLCONTROL2/XCBR1.CBOpCap[ST]"
+            },
+            {
+                "id": 89,
+                "fcda": "BCUCPLCONTROL2/XCBR1.Cnt1[ST]"
+            },
+            {
+                "id": 90,
+                "fcda": "BCUCPLCONTROL2/XCBR1.Loc[ST]"
+            },
+            {
+                "id": 91,
+                "fcda": "BCUCPLCONTROL2/XCBR1.OpCnt[ST]"
+            },
+            {
+                "id": 92,
+                "fcda": "BCUCPLCONTROL2/XCBR1.Pos[ST]"
+            },
+            {
+                "id": 93,
+                "fcda": "BCUCPLCONTROL2/XSWI1.Mod[ST]"
+            },
+            {
+                "id": 94,
+                "fcda": "BCUCPLCONTROL2/XSWI1.BlkCls[ST]"
+            },
+            {
+                "id": 95,
+                "fcda": "BCUCPLCONTROL2/XSWI1.BlkOpn[ST]"
+            },
+            {
+                "id": 96,
+                "fcda": "BCUCPLCONTROL2/XSWI1.Loc[ST]"
+            },
+            {
+                "id": 97,
+                "fcda": "BCUCPLCONTROL2/XSWI1.OpCnt[ST]"
+            },
+            {
+                "id": 98,
+                "fcda": "BCUCPLCONTROL2/XSWI1.Pos[ST]"
+            },
+            {
+                "id": 99,
+                "fcda": "BCUCPLCONTROL2/XSWI1.SwOpCap[ST]"
+            },
+            {
+                "id": 100,
+                "fcda": "BCUCPLCONTROL2/XSWI1.SwTyp[ST]"
+            },
+            {
+                "id": 101,
+                "fcda": "BCUCPLCONTROL2/XSWI2.Mod[ST]"
+            },
+            {
+                "id": 102,
+                "fcda": "BCUCPLCONTROL2/XSWI2.BlkCls[ST]"
+            },
+            {
+                "id": 103,
+                "fcda": "BCUCPLCONTROL2/XSWI2.BlkOpn[ST]"
+            },
+            {
+                "id": 104,
+                "fcda": "BCUCPLCONTROL2/XSWI2.Loc[ST]"
+            },
+            {
+                "id": 105,
+                "fcda": "BCUCPLCONTROL2/XSWI2.OpCnt[ST]"
+            },
+            {
+                "id": 106,
+                "fcda": "BCUCPLCONTROL2/XSWI2.Pos[ST]"
+            },
+            {
+                "id": 107,
+                "fcda": "BCUCPLCONTROL2/XSWI2.SwOpCap[ST]"
+            },
+            {
+                "id": 108,
+                "fcda": "BCUCPLCONTROL2/XSWI2.SwTyp[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLCONTROL2/LLN0$LLN0URptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL2/LLN0.Mod[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL2/LLN0.Beh[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL2/LLN0.Health[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL2/LLN0.Loc[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLCONTROL3/LLN0$LLN0BRptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL3/LPHD1.OutOv1[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL3/LPHD1.OutOv2[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL3/LPHD1.OutOv3[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL3/LPHD1.OutOv4[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLCONTROL3/LPHD1.PhyHealth[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLCONTROL3/LPHD1.Proxy[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLCONTROL3/LLN0.Mod[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLCONTROL3/LLN0.Loc[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLCONTROL3/GAPC1.Mod[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLCONTROL3/GAPC1.IndSys1[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "BCUCPLCONTROL3/GAPC1.Op[ST]"
+            },
+            {
+                "id": 11,
+                "fcda": "BCUCPLCONTROL3/GAPC1.Str[ST]"
+            },
+            {
+                "id": 12,
+                "fcda": "BCUCPLCONTROL3/GAPC2.Mod[ST]"
+            },
+            {
+                "id": 13,
+                "fcda": "BCUCPLCONTROL3/GAPC2.IndSys1[ST]"
+            },
+            {
+                "id": 14,
+                "fcda": "BCUCPLCONTROL3/GAPC2.Op[ST]"
+            },
+            {
+                "id": 15,
+                "fcda": "BCUCPLCONTROL3/GAPC2.Str[ST]"
+            },
+            {
+                "id": 16,
+                "fcda": "BCUCPLCONTROL3/XCBR1.Mod[ST]"
+            },
+            {
+                "id": 17,
+                "fcda": "BCUCPLCONTROL3/XCBR1.BlkCls[ST]"
+            },
+            {
+                "id": 18,
+                "fcda": "BCUCPLCONTROL3/XCBR1.BlkOpn[ST]"
+            },
+            {
+                "id": 19,
+                "fcda": "BCUCPLCONTROL3/XCBR1.CBOpCap[ST]"
+            },
+            {
+                "id": 20,
+                "fcda": "BCUCPLCONTROL3/XCBR1.Loc[ST]"
+            },
+            {
+                "id": 21,
+                "fcda": "BCUCPLCONTROL3/XCBR1.OpCnt[ST]"
+            },
+            {
+                "id": 22,
+                "fcda": "BCUCPLCONTROL3/XCBR1.Pos[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLCONTROL3/LLN0$LLN0URptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLCONTROL3/LLN0.Mod[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLCONTROL3/LLN0.Beh[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLCONTROL3/LLN0.Health[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLCONTROL3/LLN0.Loc[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLLD0/LLN0$LLN0BRptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLLD0/LPHD1.OutOv1[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLLD0/LPHD1.OutOv2[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLLD0/LPHD1.OutOv3[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLLD0/LPHD1.OutOv4[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLLD0/LPHD1.PhyHealth[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLLD0/LPHD1.Proxy[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLLD0/LLN0.Mod[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLLD0/LLN0.Loc[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLLD0/LDBI1.Mod[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLLD0/LDBI1.DB1St[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "BCUCPLLD0/LDBI1.DB2St[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLLD0/LLN0$LLN0URptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLLD0/LLN0.Mod[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLLD0/LLN0.Beh[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLLD0/LLN0.Health[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLLD0/LLN0.Loc[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLMEASUREMENT1/LLN0$LLN0BRptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLMEASUREMENT1/LPHD1.OutOv1[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLMEASUREMENT1/LPHD1.OutOv2[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLMEASUREMENT1/LPHD1.OutOv3[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLMEASUREMENT1/LPHD1.OutOv4[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLMEASUREMENT1/LPHD1.PhyHealth[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLMEASUREMENT1/LPHD1.Proxy[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLMEASUREMENT1/LLN0.Mod[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLMEASUREMENT1/LLN0.Loc[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLMEASUREMENT1/GGIO1.Mod[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLMEASUREMENT1/MMXU1.Mod[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLMEASUREMENT1/LLN0$LLN0URptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLMEASUREMENT1/LLN0.Mod[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLMEASUREMENT1/LLN0.Beh[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLMEASUREMENT1/LLN0.Health[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLMEASUREMENT1/LLN0.Loc[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLSYSTEM/LLN0$LLN0BRptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLSYSTEM/LPHD1.OutOv1[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLSYSTEM/LPHD1.OutOv2[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLSYSTEM/LPHD1.OutOv3[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLSYSTEM/LPHD1.OutOv4[ST]"
+            },
+            {
+                "id": 4,
+                "fcda": "BCUCPLSYSTEM/LPHD1.PhyHealth[ST]"
+            },
+            {
+                "id": 5,
+                "fcda": "BCUCPLSYSTEM/LPHD1.Proxy[ST]"
+            },
+            {
+                "id": 6,
+                "fcda": "BCUCPLSYSTEM/LLN0.Mod[ST]"
+            },
+            {
+                "id": 7,
+                "fcda": "BCUCPLSYSTEM/LLN0.Loc[ST]"
+            },
+            {
+                "id": 8,
+                "fcda": "BCUCPLSYSTEM/LDIA1.Mod[ST]"
+            },
+            {
+                "id": 9,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AIUSt0[ST]"
+            },
+            {
+                "id": 10,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AIUSt1[ST]"
+            },
+            {
+                "id": 11,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AIUSt2[ST]"
+            },
+            {
+                "id": 12,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AIUSt3[ST]"
+            },
+            {
+                "id": 13,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AIUSt4[ST]"
+            },
+            {
+                "id": 14,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AIUSt5[ST]"
+            },
+            {
+                "id": 15,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AOUSt0[ST]"
+            },
+            {
+                "id": 16,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AOUSt1[ST]"
+            },
+            {
+                "id": 17,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AOUSt2[ST]"
+            },
+            {
+                "id": 18,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AOUSt3[ST]"
+            },
+            {
+                "id": 19,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllAIUSt[ST]"
+            },
+            {
+                "id": 20,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllAOUSt[ST]"
+            },
+            {
+                "id": 21,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllCCUSt[ST]"
+            },
+            {
+                "id": 22,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllCommSt[ST]"
+            },
+            {
+                "id": 23,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllDIUSt[ST]"
+            },
+            {
+                "id": 24,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllDOUSt[ST]"
+            },
+            {
+                "id": 25,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllHBUSt[ST]"
+            },
+            {
+                "id": 26,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllIEDSt[ST]"
+            },
+            {
+                "id": 27,
+                "fcda": "BCUCPLSYSTEM/LDIA1.AllTMUSt[ST]"
+            },
+            {
+                "id": 28,
+                "fcda": "BCUCPLSYSTEM/LDIA1.BIUS1St[ST]"
+            },
+            {
+                "id": 29,
+                "fcda": "BCUCPLSYSTEM/LDIA1.BIUS2St[ST]"
+            },
+            {
+                "id": 30,
+                "fcda": "BCUCPLSYSTEM/LDIA1.BIUSCur[ST]"
+            },
+            {
+                "id": 31,
+                "fcda": "BCUCPLSYSTEM/LDIA1.BIUSt[ST]"
+            },
+            {
+                "id": 32,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt0[ST]"
+            },
+            {
+                "id": 33,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt1[ST]"
+            },
+            {
+                "id": 34,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt10[ST]"
+            },
+            {
+                "id": 35,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt11[ST]"
+            },
+            {
+                "id": 36,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt12[ST]"
+            },
+            {
+                "id": 37,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt13[ST]"
+            },
+            {
+                "id": 38,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt14[ST]"
+            },
+            {
+                "id": 39,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt2[ST]"
+            },
+            {
+                "id": 40,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt3[ST]"
+            },
+            {
+                "id": 41,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt4[ST]"
+            },
+            {
+                "id": 42,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt5[ST]"
+            },
+            {
+                "id": 43,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt6[ST]"
+            },
+            {
+                "id": 44,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt7[ST]"
+            },
+            {
+                "id": 45,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt8[ST]"
+            },
+            {
+                "id": 46,
+                "fcda": "BCUCPLSYSTEM/LDIA1.CCUSt9[ST]"
+            },
+            {
+                "id": 47,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIStop[ST]"
+            },
+            {
+                "id": 48,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt0[ST]"
+            },
+            {
+                "id": 49,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt1[ST]"
+            },
+            {
+                "id": 50,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt10[ST]"
+            },
+            {
+                "id": 51,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt11[ST]"
+            },
+            {
+                "id": 52,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt12[ST]"
+            },
+            {
+                "id": 53,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt13[ST]"
+            },
+            {
+                "id": 54,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt14[ST]"
+            },
+            {
+                "id": 55,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt2[ST]"
+            },
+            {
+                "id": 56,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt3[ST]"
+            },
+            {
+                "id": 57,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt4[ST]"
+            },
+            {
+                "id": 58,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt5[ST]"
+            },
+            {
+                "id": 59,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt6[ST]"
+            },
+            {
+                "id": 60,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt7[ST]"
+            },
+            {
+                "id": 61,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt8[ST]"
+            },
+            {
+                "id": 62,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DIUSt9[ST]"
+            },
+            {
+                "id": 63,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt0[ST]"
+            },
+            {
+                "id": 64,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt1[ST]"
+            },
+            {
+                "id": 65,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt10[ST]"
+            },
+            {
+                "id": 66,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt11[ST]"
+            },
+            {
+                "id": 67,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt12[ST]"
+            },
+            {
+                "id": 68,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt13[ST]"
+            },
+            {
+                "id": 69,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt14[ST]"
+            },
+            {
+                "id": 70,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt2[ST]"
+            },
+            {
+                "id": 71,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt3[ST]"
+            },
+            {
+                "id": 72,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt4[ST]"
+            },
+            {
+                "id": 73,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt5[ST]"
+            },
+            {
+                "id": 74,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt6[ST]"
+            },
+            {
+                "id": 75,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt7[ST]"
+            },
+            {
+                "id": 76,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt8[ST]"
+            },
+            {
+                "id": 77,
+                "fcda": "BCUCPLSYSTEM/LDIA1.DOUSt9[ST]"
+            },
+            {
+                "id": 78,
+                "fcda": "BCUCPLSYSTEM/LDIA1.FailSt[ST]"
+            },
+            {
+                "id": 79,
+                "fcda": "BCUCPLSYSTEM/LDIA1.GHUSt[ST]"
+            },
+            {
+                "id": 80,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt0[ST]"
+            },
+            {
+                "id": 81,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt1[ST]"
+            },
+            {
+                "id": 82,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt10[ST]"
+            },
+            {
+                "id": 83,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt11[ST]"
+            },
+            {
+                "id": 84,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt12[ST]"
+            },
+            {
+                "id": 85,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt13[ST]"
+            },
+            {
+                "id": 86,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt14[ST]"
+            },
+            {
+                "id": 87,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt2[ST]"
+            },
+            {
+                "id": 88,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt3[ST]"
+            },
+            {
+                "id": 89,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt4[ST]"
+            },
+            {
+                "id": 90,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt5[ST]"
+            },
+            {
+                "id": 91,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt6[ST]"
+            },
+            {
+                "id": 92,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt7[ST]"
+            },
+            {
+                "id": 93,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt8[ST]"
+            },
+            {
+                "id": 94,
+                "fcda": "BCUCPLSYSTEM/LDIA1.HBUSt9[ST]"
+            },
+            {
+                "id": 95,
+                "fcda": "BCUCPLSYSTEM/LDIA1.PLCSt[ST]"
+            },
+            {
+                "id": 96,
+                "fcda": "BCUCPLSYSTEM/LDIA1.PrintSt[ST]"
+            },
+            {
+                "id": 97,
+                "fcda": "BCUCPLSYSTEM/LDIA1.RedSt[ST]"
+            },
+            {
+                "id": 98,
+                "fcda": "BCUCPLSYSTEM/LDIA1.SetDisc[ST]"
+            },
+            {
+                "id": 99,
+                "fcda": "BCUCPLSYSTEM/LDIA1.SetDone[ST]"
+            },
+            {
+                "id": 100,
+                "fcda": "BCUCPLSYSTEM/LDIA1.SetIncoher[ST]"
+            },
+            {
+                "id": 101,
+                "fcda": "BCUCPLSYSTEM/LDIA1.SetInPrg[ST]"
+            },
+            {
+                "id": 102,
+                "fcda": "BCUCPLSYSTEM/LDIA1.SyncSt[ST]"
+            },
+            {
+                "id": 103,
+                "fcda": "BCUCPLSYSTEM/LDIA1.TMUSt[ST]"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "BCUCPLSYSTEM/LLN0$LLN0URptStDs",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "BCUCPLSYSTEM/LLN0.Mod[ST]"
+            },
+            {
+                "id": 1,
+                "fcda": "BCUCPLSYSTEM/LLN0.Beh[ST]"
+            },
+            {
+                "id": 2,
+                "fcda": "BCUCPLSYSTEM/LLN0.Health[ST]"
+            },
+            {
+                "id": 3,
+                "fcda": "BCUCPLSYSTEM/LLN0.Loc[ST]"
+            }
+        ]
+    }
+]

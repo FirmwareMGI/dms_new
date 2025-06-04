@@ -61,6 +61,11 @@ def changeNet():
 while True:
     device_list=db.readDb.device_list(1)
     cfg = db.readDb.flag_config(1)
+    m_mesin = db.readDb.m_mesin(1)
+    machine_code = m_mesin[0]["kode_mesin"]
+    # print("machine code: ", machine_code)
+    
+    
     
     cfg_flag=cfg[0]["flag_program_iec"]
     print(cfg_flag)
@@ -87,7 +92,7 @@ while True:
                 ip_device=str(device_list[i]['ip_address'])
                 port_device=str(device_list[i]['port_address'])
                 try:
-                    prosecessSuccess =loader.process_single_scl_file(loc,output_dir=path, ip=ip_device, port=port_device)
+                    prosecessSuccess =loader.process_single_scl_file(loc,output_dir=path, ip=ip_device, port=port_device, machine_code = machine_code, id_device=id_device) 
                     # datasets = ied1.getDataSets()
                     # for ds in datasets:
                     #     print(f"LD: {ds['LD']}, Dataset Name: {ds['dataset_name']}")

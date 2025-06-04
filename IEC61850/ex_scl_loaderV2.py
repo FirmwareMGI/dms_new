@@ -108,15 +108,18 @@ class IEDPARSER:
                     lnclass = getattr(rc.parent(), "lnClass", "")
                     dataset = rc.datSet
                     dataset_ref = f"{self.ied_name[0]}{ld_name}/{lnclass}${dataset}"
-                    self._process_rc_block(rc, ld_name, dataset_ref)
+                    self._process_rc_block(rc, ld_name, dataset_ref, lnclass)
         except Exception as e:
             print(f"❌ Error processing ReportControls in {self.scl_path}: {e}")
 
-    def _process_rc_block(self, rc, ld_name, dataset_ref):
+    def _process_rc_block(self, rc, ld_name, dataset_ref, ln_class):
         try:
             if rc.RptEnabled and hasattr(rc.RptEnabled, 'max'):
                 max_val = int(rc.RptEnabled.max)
-                prefix = f"{self.ied_name[0]}{ld_name}/LLN0$BR$"
+                if "brcb" in rc.name.lower() or "brep" in rc.name.lower():
+                    prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$BR$"
+                else:
+                    prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$RP$"
                 for i in range(1, max_val + 1):
                     index = f"{i:02}"
                     cb_ref = f"{prefix}{rc.name}{index}"
@@ -129,7 +132,10 @@ class IEDPARSER:
                     })
                     self.report_id_counter += 1
             else:
-                prefix = f"{self.ied_name[0]}{ld_name}/LLN0$BR$"
+                if "brcb" in rc.name.lower() or "brep" in rc.name.lower():
+                    prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$BR$"
+                else:
+                    prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$RP$"
                 cb_ref = f"{prefix}{rc.name}"
                 self.host_reports.append({
                         "id": self.report_id_counter,
@@ -187,7 +193,7 @@ def process_all_scl_files_in_folder(folder_path):
                     print(f"⚠️ Failed to load {scl_path}")
 
 
-def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output"):
+def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output", machine_code=None, id_device=None):
     try:
         print(f"🔍 Processing: {scl_path}")
         builder = IEDPARSER(scl_path, ip=ip, port=port)
@@ -203,6 +209,8 @@ def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output"):
                 "iedName": builder.ied_name[0],
                 "localIP": builder.ip,
                 "port": builder.port,
+                "machineCode": machine_code,
+                "idDevice": id_device,
                 "control": builder.control_list,
                 "reports": builder.host_reports
             }
@@ -228,13 +236,13 @@ def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output"):
 
 
 # 🔧 Example usage
-# if __name__ == "__main__":
-    # folder_path = "scl_files"
-    # process_all_scl_files_in_folder(folder_path)
-    # upload_dir = "/var/www/html/dms_setting/upload"
+if __name__ == "__main__":
+    folder_path = "scl_files"
+    process_all_scl_files_in_folder(folder_path)
+    upload_dir = "/var/www/html/dms_setting/upload"
 
-    # # Or test single file
-    # # process_single_scl_file("/var/www/html/dms_setting/upload/scl_11.iid")
+    # Or test single file
+    process_single_scl_file("/var/www/html/dms_setting/upload/D101_2.icd")
     # for filename in os.listdir(upload_dir):
     #     file_path = os.path.join(upload_dir, filename)
 
