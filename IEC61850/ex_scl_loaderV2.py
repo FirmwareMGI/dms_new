@@ -4,6 +4,8 @@ from scl_loader import SCD_handler
 from scl_loader import LN
 from collections import defaultdict
 
+BR_list = ["brcb", "brep", "bcrb", "bcrep"]
+
 
 class IEDPARSER:
     def __init__(self, scl_path, ip=None, port=None):
@@ -116,7 +118,7 @@ class IEDPARSER:
         try:
             if rc.RptEnabled and hasattr(rc.RptEnabled, 'max'):
                 max_val = int(rc.RptEnabled.max)
-                if "brcb" in rc.name.lower() or "brep" in rc.name.lower():
+                if any(x in rc.name.lower() for x in BR_list):
                     prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$BR$"
                 else:
                     prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$RP$"
@@ -132,7 +134,7 @@ class IEDPARSER:
                     })
                     self.report_id_counter += 1
             else:
-                if "brcb" in rc.name.lower() or "brep" in rc.name.lower():
+                if any(x in rc.name.lower() for x in BR_list):
                     prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$BR$"
                 else:
                     prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$RP$"
