@@ -48,11 +48,14 @@ class IEDPARSER:
             for da in da_list.values():
                 if da.name == 'ctlModel' and hasattr(da, 'Val'):
                     obj_path = str(da.get_path_from_ld()).replace(".ctlModel", "")
-                    ctl_path = f"{self.ied_name[0]}{obj_path}"
+                    DA = obj_path.replace(".", "/", 1)
+                    ctl_path = f"{self.ied_name[0]}{DA}"
+                    # print(f"Extracted ctlModel: {ctl_path}")
                     self.control_list.append({
                         "id": self.control_id_counter,
                         "object": ctl_path,
                         "ctlModel": da.Val,
+                        "enabled" : False
                     })
                     self.control_id_counter += 1
         except Exception as e:
