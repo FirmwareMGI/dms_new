@@ -3,6 +3,7 @@ import os
 from scl_loader import SCD_handler
 from scl_loader import LN
 from collections import defaultdict
+import time
 
 BR_list = ["brcb", "brep", "bcrb", "bcrep"]
 
@@ -62,8 +63,9 @@ class IEDPARSER:
             print(f"❌ Error extracting ctlModel: {e}")
 
 
-    def process_report_controls(self):
+    def process_report_controls(self, id_device=None):
         try:
+            global_index = 0
             for ld in self.lds:
                 ld_name = ld.name
                 # ld_childern = ld.get_children_LDs(self.ied.ap)  # Ensure LD is fully loaded
@@ -90,19 +92,24 @@ class IEDPARSER:
                         self.temp_dict[dataset_key].append(full_path)
 
                 # Then: Format with reset `id` per key
-                self.datasets_info_grouped = [
-                    {
+                for dataset_key, fcda_list in self.temp_dict.items():
+                    timestamp_prefix = int(time.time())  # Get milliseconds once per dataset group
+
+                    dataset_entry = {
                         "dataSetReference": dataset_key,
-                        "listData": [
-                            {"id": idx, "fcda": fcda}
-                            for idx, fcda in enumerate(fcda_list)
-                        ]
+                        "listData": []
                     }
-                    for dataset_key, fcda_list in self.temp_dict.items()
-                ]
 
+                    for idx, fcda in enumerate(fcda_list):
+                        alias = f"{id_device}{global_index:04d}{timestamp_prefix}"  # Unique alias with timestamp
+                        dataset_entry["listData"].append({
+                            "id": idx,
+                            "fcda": fcda,
+                            "alias": alias
+                        })
+                        global_index += 1  # Increment global counter
 
-                        
+                    self.datasets_info_grouped.append(dataset_entry)
 
                 if not report_controls:
                     print(f"  LD: {ld_name} → No ReportControls found.")
@@ -205,7 +212,7 @@ def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output", m
 
         if builder.load_scl():
             builder.extract_ctl_models()
-            builder.process_report_controls()
+            builder.process_report_controls(id_device=id_device)
 
             base_name = os.path.splitext(os.path.basename(scl_path))[0]
 
