@@ -1,0 +1,5918 @@
+[
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00001749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00011749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00021749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00031749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00041749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00051749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00061749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00071749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00081749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00091749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00101749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00111749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00121749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00131749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00141749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00151749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00161749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00171749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00181749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00191749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00201749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00211749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00221749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00231749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00241749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00251749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00261749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00271749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00281749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00291749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00301749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00311749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00321749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00331749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00341749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00351749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00361749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00371749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00381749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00391749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00401749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00411749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00421749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00431749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00441749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00451749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00461749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00471749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00481749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00491749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00501749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00511749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00521749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00531749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00541749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00551749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00561749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00571749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00581749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00591749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00601749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00611749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00621749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00631749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00641749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00651749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00661749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00671749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00681749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00691749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00701749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00711749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00721749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00731749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00741749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00751749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00761749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00771749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00781749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00791749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00801749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00811749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00821749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00831749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00841749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00851749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00861749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00871749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00881749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00891749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00901749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00911749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00921749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00931749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00941749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00951749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00961749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00971749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00981749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None00991749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01001749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01011749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01021749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01031749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01041749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01051749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01061749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01071749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$GPDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01081749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01091749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01101749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01111749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01121749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01131749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01141749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01151749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01161749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01171749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01181749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01191749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01201749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01211749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01221749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01231749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01241749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01251749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01261749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01271749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01281749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01291749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01301749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01311749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01321749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01331749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01341749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01351749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01361749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01371749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01381749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01391749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01401749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01411749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01421749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01431749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01441749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01451749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01461749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01471749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01481749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01491749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01501749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01511749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01521749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01531749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01541749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01551749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01561749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01571749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01581749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01591749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01601749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01611749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01621749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01631749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01641749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01651749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01661749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01671749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01681749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01691749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01701749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01711749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01721749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01731749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01741749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01751749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01761749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01771749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01781749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01791749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01801749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01811749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01821749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01831749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01841749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01851749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01861749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01871749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01881749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01891749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01901749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01911749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01921749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01931749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01941749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01951749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01961749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01971749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01981749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None01991749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02001749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02011749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02021749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02031749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02041749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02051749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02061749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02071749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02081749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02091749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02101749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02111749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02121749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02131749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02141749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02151749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02161749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02171749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02181749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02191749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02201749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02211749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02221749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02231749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02241749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02251749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02261749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02271749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02281749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02291749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02301749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02311749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02321749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02331749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02341749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02351749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02361749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02371749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02381749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02391749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02401749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02411749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02421749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02431749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02441749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02451749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02461749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02471749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02481749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02491749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02501749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02511749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02521749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02531749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02541749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02551749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02561749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02571749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02581749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02591749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02601749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02611749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02621749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02631749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02641749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02651749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02661749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02671749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02681749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02691749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02701749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02711749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02721749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02731749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02741749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02751749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02761749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02771749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02781749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02791749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02801749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02811749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02821749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02831749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02841749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02851749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02861749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02871749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02881749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02891749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02901749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02911749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02921749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02931749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02941749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02951749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02961749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02971749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02981749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None02991749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03001749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03011749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03021749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03031749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03041749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03051749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03061749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03071749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03081749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03091749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03101749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03111749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03121749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03131749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03141749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03151749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03161749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03171749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03181749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03191749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03201749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03211749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03221749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03231749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03241749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03251749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03261749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03271749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03281749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03291749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03301749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03311749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03321749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03331749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03341749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03351749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03361749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03371749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03381749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03391749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03401749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03411749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$GPDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03421749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03431749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03441749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03451749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03461749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03471749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03481749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03491749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03501749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03511749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03521749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03531749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03541749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03551749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03561749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03571749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03581749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03591749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03601749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03611749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03621749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03631749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03641749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03651749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03661749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03671749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03681749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03691749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03701749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03711749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03721749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03731749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03741749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03751749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03761749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03771749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03781749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03791749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03801749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03811749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03821749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03831749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03841749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03851749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03861749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03871749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03881749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03891749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03901749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03911749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03921749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03931749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03941749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03951749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03961749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03971749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03981749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None03991749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04001749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04011749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04021749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04031749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04041749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04051749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04061749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04071749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04081749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04091749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04101749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04111749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04121749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04131749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04141749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04151749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04161749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04171749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04181749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04191749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04201749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04211749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04221749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04231749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04241749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04251749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04261749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04271749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04281749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04291749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04301749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04311749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04321749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04331749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04341749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04351749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04361749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04371749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04381749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04391749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04401749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04411749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04421749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04431749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04441749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04451749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04461749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04471749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04481749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04491749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04501749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04511749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04521749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04531749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04541749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04551749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04561749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04571749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04581749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04591749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04601749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04611749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04621749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04631749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04641749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04651749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04661749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04671749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04681749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04691749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04701749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04711749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04721749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04731749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04741749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04751749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04761749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04771749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04781749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04791749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04801749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04811749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04821749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04831749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04841749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04851749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04861749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04871749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04881749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04891749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04901749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04911749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04921749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04931749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04941749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04951749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04961749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04971749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04981749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None04991749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05001749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05011749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05021749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05031749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05041749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05051749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05061749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05071749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05081749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05091749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05101749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05111749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05121749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05131749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05141749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05151749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05161749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05171749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05181749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05191749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05201749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05211749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05221749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05231749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05241749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05251749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05261749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05271749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05281749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05291749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05301749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05311749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05321749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05331749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05341749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05351749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05361749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05371749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05381749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05391749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05401749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05411749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05421749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05431749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05441749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05451749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05461749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05471749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05481749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05491749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05501749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05511749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05521749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05531749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05541749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05551749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05561749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05571749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05581749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05591749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05601749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05611749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05621749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05631749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05641749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05651749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05661749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05671749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05681749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05691749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05701749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05711749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05721749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05731749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05741749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05751749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$GPDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05761749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05771749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05781749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05791749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05801749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05811749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05821749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05831749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05841749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05851749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05861749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05871749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05881749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05891749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05901749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05911749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05921749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05931749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05941749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05951749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05961749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05971749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05981749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None05991749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06001749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06011749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06021749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06031749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06041749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06051749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06061749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06071749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06081749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06091749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06101749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06111749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06121749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06131749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06141749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06151749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06161749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06171749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06181749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06191749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06201749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06211749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06221749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06231749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06241749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06251749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06261749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06271749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06281749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06291749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06301749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06311749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06321749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06331749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06341749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06351749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06361749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06371749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06381749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06391749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06401749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06411749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06421749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06431749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06441749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06451749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06461749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06471749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06481749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06491749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06501749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06511749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06521749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06531749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06541749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06551749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06561749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06571749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06581749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06591749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06601749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06611749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06621749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06631749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06641749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06651749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06661749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06671749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06681749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06691749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06701749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06711749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06721749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06731749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06741749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06751749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06761749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06771749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06781749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06791749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06801749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06811749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06821749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06831749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06841749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06851749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06861749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06871749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06881749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06891749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06901749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06911749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06921749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06931749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06941749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06951749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06961749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06971749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06981749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None06991749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07001749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07011749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07021749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07031749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07041749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07051749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07061749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07071749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07081749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07091749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07101749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07111749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07121749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07131749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07141749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07151749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07161749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07171749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07181749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07191749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07201749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07211749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07221749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07231749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07241749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07251749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07261749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07271749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07281749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07291749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07301749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07311749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07321749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07331749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07341749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07351749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07361749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07371749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07381749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07391749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07401749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07411749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07421749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07431749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07441749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07451749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07461749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07471749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07481749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07491749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07501749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07511749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07521749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07531749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07541749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07551749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07561749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07571749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07581749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07591749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07601749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07611749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07621749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07631749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07641749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07651749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07661749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07671749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07681749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07691749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07701749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07711749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07721749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07731749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07741749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07751749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07761749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07771749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$BRDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07781749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07791749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07801749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07811749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07821749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07831749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07841749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07851749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07861749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07871749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07881749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07891749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07901749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07911749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07921749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07931749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07941749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07951749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07961749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07971749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07981749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None07991749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08001749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08011749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08021749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08031749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08041749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08051749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08061749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08071749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08081749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08091749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$GPDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08101749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08111749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08121749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08131749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08141749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08151749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08161749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08171749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08181749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08191749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08201749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08211749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08221749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08231749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08241749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08251749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08261749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08271749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet01",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/MMXU1.A[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08281749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/MMXU1.PhV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08291749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/MMXU1.Hz[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08301749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/MMXU1.TotW[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08311749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/MMXU1.TotVAr[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08321749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/MMXU1.TotVA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08331749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/MMXU1.TotPF[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08341749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/MSQI1.SeqA[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08351749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/MSQI1.SeqV[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08361749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet02",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08371749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08381749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08391749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08401749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08411749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08421749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08431749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO13.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08441749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn01[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08451749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn02[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08461749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn03[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08471749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn04[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08481749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn05[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08491749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn06[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08501749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn07[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08511749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO14.AnIn08[MX]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08521749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet03",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/PTRC1.Tr[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08531749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/XCBR1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08541749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/CSWI1.Pos[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08551749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08561749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08571749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08581749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08591749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08601749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO1.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08611749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet04",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO6.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08621749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO6.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08631749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO6.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08641749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO6.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08651749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO6.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08661749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO6.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08671749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO6.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08681749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO6.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08691749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO6.Ind09[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08701749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO6.Ind10[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08711749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet05",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO3.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08721749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO3.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08731749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO3.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08741749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO3.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08751749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO3.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08761749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO3.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08771749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO3.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08781749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO3.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08791749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO4.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08801749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO4.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08811749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO4.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08821749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO4.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08831749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO4.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08841749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO4.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08851749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO4.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08861749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO4.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08871749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO5.Ind01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08881749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO5.Ind02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08891749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO5.Ind03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08901749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO5.Ind04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08911749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO5.Ind05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08921749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO5.Ind06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08931749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO5.Ind07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08941749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO5.Ind08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08951749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet06",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO01[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08961749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO02[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08971749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO03[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08981749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO04[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None08991749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO05[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09001749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO06[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09011749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO07[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09021749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO1.SPCSO08[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09031749712259"
+            }
+        ]
+    },
+    {
+        "dataSetReference": "TEMPLATECFG/LLN0$URDSet07",
+        "listData": [
+            {
+                "id": 0,
+                "fcda": "TEMPLATECFG/GGIO9.Ind001[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09041749712259"
+            },
+            {
+                "id": 1,
+                "fcda": "TEMPLATECFG/GGIO9.Ind002[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09051749712259"
+            },
+            {
+                "id": 2,
+                "fcda": "TEMPLATECFG/GGIO9.Ind003[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09061749712259"
+            },
+            {
+                "id": 3,
+                "fcda": "TEMPLATECFG/GGIO9.Ind004[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09071749712259"
+            },
+            {
+                "id": 4,
+                "fcda": "TEMPLATECFG/GGIO9.Ind005[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09081749712259"
+            },
+            {
+                "id": 5,
+                "fcda": "TEMPLATECFG/GGIO9.Ind006[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09091749712259"
+            },
+            {
+                "id": 6,
+                "fcda": "TEMPLATECFG/GGIO9.Ind007[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09101749712259"
+            },
+            {
+                "id": 7,
+                "fcda": "TEMPLATECFG/GGIO9.Ind008[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09111749712259"
+            },
+            {
+                "id": 8,
+                "fcda": "TEMPLATECFG/GGIO9.Ind009[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09121749712259"
+            },
+            {
+                "id": 9,
+                "fcda": "TEMPLATECFG/GGIO9.Ind010[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09131749712259"
+            },
+            {
+                "id": 10,
+                "fcda": "TEMPLATECFG/GGIO9.Ind011[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09141749712259"
+            },
+            {
+                "id": 11,
+                "fcda": "TEMPLATECFG/GGIO9.Ind012[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09151749712259"
+            },
+            {
+                "id": 12,
+                "fcda": "TEMPLATECFG/GGIO9.Ind013[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09161749712259"
+            },
+            {
+                "id": 13,
+                "fcda": "TEMPLATECFG/GGIO9.Ind014[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09171749712259"
+            },
+            {
+                "id": 14,
+                "fcda": "TEMPLATECFG/GGIO9.Ind015[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09181749712259"
+            },
+            {
+                "id": 15,
+                "fcda": "TEMPLATECFG/GGIO9.Ind016[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09191749712259"
+            },
+            {
+                "id": 16,
+                "fcda": "TEMPLATECFG/GGIO9.Ind017[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09201749712259"
+            },
+            {
+                "id": 17,
+                "fcda": "TEMPLATECFG/GGIO9.Ind018[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09211749712259"
+            },
+            {
+                "id": 18,
+                "fcda": "TEMPLATECFG/GGIO9.Ind019[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09221749712259"
+            },
+            {
+                "id": 19,
+                "fcda": "TEMPLATECFG/GGIO9.Ind020[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09231749712259"
+            },
+            {
+                "id": 20,
+                "fcda": "TEMPLATECFG/GGIO9.Ind021[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09241749712259"
+            },
+            {
+                "id": 21,
+                "fcda": "TEMPLATECFG/GGIO9.Ind022[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09251749712259"
+            },
+            {
+                "id": 22,
+                "fcda": "TEMPLATECFG/GGIO9.Ind023[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09261749712259"
+            },
+            {
+                "id": 23,
+                "fcda": "TEMPLATECFG/GGIO9.Ind024[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09271749712259"
+            },
+            {
+                "id": 24,
+                "fcda": "TEMPLATECFG/GGIO9.Ind025[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09281749712259"
+            },
+            {
+                "id": 25,
+                "fcda": "TEMPLATECFG/GGIO9.Ind026[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09291749712259"
+            },
+            {
+                "id": 26,
+                "fcda": "TEMPLATECFG/GGIO9.Ind027[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09301749712259"
+            },
+            {
+                "id": 27,
+                "fcda": "TEMPLATECFG/GGIO9.Ind028[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09311749712259"
+            },
+            {
+                "id": 28,
+                "fcda": "TEMPLATECFG/GGIO9.Ind029[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09321749712259"
+            },
+            {
+                "id": 29,
+                "fcda": "TEMPLATECFG/GGIO9.Ind030[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09331749712259"
+            },
+            {
+                "id": 30,
+                "fcda": "TEMPLATECFG/GGIO9.Ind031[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09341749712259"
+            },
+            {
+                "id": 31,
+                "fcda": "TEMPLATECFG/GGIO9.Ind032[ST]",
+                "domainId": "TEMPLATECFG",
+                "alias": "None09351749712259"
+            }
+        ]
+    }
+]

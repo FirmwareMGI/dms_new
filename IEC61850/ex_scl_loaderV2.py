@@ -68,6 +68,7 @@ class IEDPARSER:
             global_index = 0
             for ld in self.lds:
                 ld_name = ld.name
+                print(f"🔍 Processing LD: {ld_name}")
                 # ld_childern = ld.get_children_LDs(self.ied.ap)  # Ensure LD is fully loaded
                 # ld_ln = ld.get_children()
                 # print("ld Name:", ld_ln[0].get_children()[0].name)
@@ -105,6 +106,7 @@ class IEDPARSER:
                         dataset_entry["listData"].append({
                             "id": idx,
                             "fcda": fcda,
+                            "domainId": fcda.split('/')[-2],  # Extract domainId from fcda
                             "alias": alias
                         })
                         global_index += 1  # Increment global counter
@@ -118,7 +120,13 @@ class IEDPARSER:
                 for rc in report_controls:
                     print(f"Processing ReportControl: {rc.name}")
                     lnclass = getattr(rc.parent(), "lnClass", "")
-                    dataset = rc.datSet
+                    # print("rc_dict: ", rc.OptFields.__dict__)
+                    # check sequence number in optfields
+                    if(rc.OptFields.seqNum):
+                        print("Sequence Number is enabled in ReportControl")
+                    else:
+                        dataset = rc.datSet
+                    # print("Dataset:", dataset)
                     dataset_ref = f"{self.ied_name[0]}{ld_name}/{lnclass}${dataset}"
                     self._process_rc_block(rc, ld_name, dataset_ref, lnclass)
         except Exception as e:
@@ -128,6 +136,7 @@ class IEDPARSER:
         try:
             if rc.RptEnabled and hasattr(rc.RptEnabled, 'max'):
                 max_val = int(rc.RptEnabled.max)
+                print(f"  RC: {rc.datSet} → max: {max_val}")
                 if any(x in rc.name.lower() for x in BR_list):
                     prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$BR$"
                 else:
@@ -254,7 +263,7 @@ if __name__ == "__main__":
     upload_dir = "/var/www/html/dms_setting/upload"
 
     # Or test single file
-    process_single_scl_file("/var/www/html/dms_setting/upload/D101_2.icd")
+    process_single_scl_file("/var/www/html/dms_setting/upload/scl_11.iid")
     # for filename in os.listdir(upload_dir):
     #     file_path = os.path.join(upload_dir, filename)
 

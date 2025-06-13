@@ -75,7 +75,7 @@ for device in device_list:
         int(device.get("scl_flag", 0)) == 2 and
         int(device.get("process_flag", 0)) == 0):
         instance_id = str(device["id_device"])
-        config_file = f"scl_{instance_id}_parsed.json"
+        config_file = f"scl_{instance_id}"
         clients[instance_id] = config_file
 
 def main():

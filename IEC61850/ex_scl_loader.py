@@ -23,10 +23,11 @@ class IED_PARSING:
         self.filePath = filePath
         self.scd = scl_loader.SCD_handler(self.filePath, False)
         self.iedName = self.scd.get_IED_names_list()
-        self.iedName = self.iedName[0] if self.iedName and self.iedName[0] is not None else " "
+        self.iedName = self.iedName[0] if self.iedName and self.iedName[0] is not None else None
         print("IED Name: ", self.iedName)
         self.ied = self.scd.get_IED_by_name(self.iedName)
         self.ip = self.scd.get_IP_Adr(self.iedName)
+        print("IP: ", self.ip)
         self.ap = self.ip[1]
         self.ip = self.ip[0]
         print("MASUK SINI")
@@ -190,7 +191,7 @@ class IED_PARSING:
                                     # separator : -
                                     # itemId: METMMXU1$MX$Hz$q
 
-#scl_path = "/home/pi/dms/DMSv1.2/IEC61850/COCACOLA_P142.icd"
-#ied1 = IED_PARSING(scl_path)
-#ied1.saveToFile(scl_path+".txt")
+# scl_path = "/home/pi/dms/DMSv1.2/IEC61850/scl_files_coba/BCU Bay Cikande.icd"
+# ied1 = IED_PARSING(scl_path)
+# ied1.saveToFile(scl_path+".txt")
 #print(ied1.all_domain_dict)
