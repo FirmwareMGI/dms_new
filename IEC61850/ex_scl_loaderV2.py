@@ -214,7 +214,14 @@ def process_all_scl_files_in_folder(folder_path):
                     print(f"⚠️ Failed to load {scl_path}")
 
 
-def process_single_scl_file(scl_path, ip=None, port=None, output_dir="output", machine_code=None, id_device=None):
+def process_single_scl_file(
+    scl_path, 
+    ip=None, 
+    port=None, 
+    output_dir="output", 
+    machine_code=None, 
+    id_device=None, 
+    port_id = None):
     try:
         print(f"🔍 Processing: {scl_path}")
         builder = IEDPARSER(scl_path, ip=ip, port=port)

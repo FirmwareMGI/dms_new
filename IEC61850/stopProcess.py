@@ -2,8 +2,8 @@ import os
 import subprocess
 
 # Range of service instances to delete
-start = 10
-end = 11
+start = 120
+end = 350
 
 base_name = "report-client@{}.service"
 unit_path_base = "/etc/systemd/system"

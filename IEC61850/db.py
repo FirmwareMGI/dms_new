@@ -201,6 +201,14 @@ class readDb:
             return results
         except:
             print("eror query")
+    
+    def m_port_grup(x, port_type):
+        query = f"select id from m_port_groups where port_type = '{port_type}'"
+        try:
+            results = queryData(x, query)
+            return results
+        except:
+            print("eror query")
 
             
 class insertDb:
