@@ -8,7 +8,7 @@ import requests
 from datetime import datetime
 from pymysqlpool.pool import Pool
 import pymysql.cursors
-pool = Pool(host='localhost', port=3306, user='dms', password='mgi', db='dms')
+pool = Pool(host='localhost', port=3306, user='mgi', password='mgi@2025', db='dms')
 db=[0]*5
 for i in range(3):
     db[i] = pool.get_conn()

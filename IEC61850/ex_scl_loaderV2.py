@@ -22,10 +22,12 @@ class IEDPARSER:
         self.control_id_counter = 0
         self.temp_dict = defaultdict(list)
         self.datasets_info_grouped = []
-
+        self.processed_dataset_keys = set()
+        
     def load_scl(self):
         try:
             handler = SCD_handler(self.scl_path)
+            print("masuk sini cok")
             self.ied_name = handler.get_IED_names_list()
             ip_info = handler.get_IP_Adr(self.ied_name[0])
             self.ied = handler.get_IED_by_name(self.ied_name[0])
@@ -68,67 +70,110 @@ class IEDPARSER:
             global_index = 0
             for ld in self.lds:
                 ld_name = ld.name
-                print(f"🔍 Processing LD: {ld_name}")
-                # ld_childern = ld.get_children_LDs(self.ied.ap)  # Ensure LD is fully loaded
-                # ld_ln = ld.get_children()
-                # print("ld Name:", ld_ln[0].get_children()[0].name)
-                # break
-                report_controls = ld.get_reportcontrols()
+                print(f"?? Processing LD: {ld_name}")
+                
+                # Get all keys from ld
+                all_keys = list(ld.__dict__.keys())
+                
+                # Keys to exclude
+                exclude_keys = {
+                    '_all_attributes', '_node_elem', '_datatypes', 'name', 'tag',
+                    'parent', '_fullattrs', 'inst', '_path_from_ld'
+                }
+                
+                # Filter logical node keys
+                ln_keys = [key for key in all_keys if key not in exclude_keys]
+                print("LN Keys:", ln_keys)
+                
+                # Get ReportControls
+                report_controls = ld.get_reportcontrols(ln_keys)
+
                 # print(f"Processing LD: {ld_name} with {len(report_controls)} ReportControls")
                 # break
-                data_set = ld.get_datasets()
-                # print(f"Data Set: {data_set}")
+                self.temp_dict = defaultdict(list)  # RESET every LD
+
+                data_set = ld.get_datasets(ln_keys)
+                print("data set")
 
                 for data in data_set:
+                    prefix = getattr(data.parent(), "prefix", "")
                     lnclass = getattr(data.parent(), "lnClass", "")
+                    inst = getattr(data.parent(), "inst", "") or ""
+                    
+                    # Construct full LN identifier: e.g., powMMXU1
+                    full_lnclass = f"{prefix}{lnclass}{inst}"
+                    dataset_key = f"{self.ied_name[0] + ld_name}/{full_lnclass}${data.name}"
+
+                    # Skip duplicate dataset_key
+                    if dataset_key in self.processed_dataset_keys:
+                        continue
+
+                    self.processed_dataset_keys.add(dataset_key)
+
                     for fcda in data.FCDA:
                         lnInst = getattr(fcda, 'lnInst', '')
                         base = f"{self.ied_name[0]}{ld.name}/{fcda.lnClass}"
+                        print(base)
                         if lnInst:
-                            base += f"{lnInst}"
+                           base += f"{lnInst}"
 
-                        full_path = f"{base}.{fcda.doName}[{fcda.fc}]"
-                        dataset_key = f"{self.ied_name[0] + ld_name}/{lnclass}${data.name}"
+                        # Try to get doName, if not present then fallback to daName
+                        name = getattr(fcda, 'doName', None) or getattr(fcda, 'daName', None)
+                        
+                        if name:
+                            full_path = f"{base}.{name}"
+                            self.temp_dict[dataset_key].append(full_path)
 
-                        self.temp_dict[dataset_key].append(full_path)
 
-                # Then: Format with reset `id` per key
+                # Format with reset `id` per key
                 for dataset_key, fcda_list in self.temp_dict.items():
-                    timestamp_prefix = int(time.time())  # Get milliseconds once per dataset group
-
+                    timestamp_prefix = int(time.time())
                     dataset_entry = {
                         "dataSetReference": dataset_key,
                         "listData": []
                     }
 
                     for idx, fcda in enumerate(fcda_list):
-                        alias = f"{id_device}{global_index:04d}{timestamp_prefix}"  # Unique alias with timestamp
+                        alias = f"{id_device}{global_index:04d}{timestamp_prefix}"
                         dataset_entry["listData"].append({
                             "id": idx,
                             "fcda": fcda,
-                            "domainId": fcda.split('/')[-2],  # Extract domainId from fcda
+                            "domainId": fcda.split('/')[-2],
                             "alias": alias
                         })
-                        global_index += 1  # Increment global counter
+                        global_index += 1
 
                     self.datasets_info_grouped.append(dataset_entry)
 
                 if not report_controls:
                     print(f"  LD: {ld_name} → No ReportControls found.")
                     continue
+                    
+                
+                print("report_controls", report_controls)
 
                 for rc in report_controls:
-                    print(f"Processing ReportControl: {rc.name}")
+                    #print(f"Processing ReportControl: {rc.__dict__}")
+                    # Get LN attributes
+                    prefix = getattr(rc.parent(), "prefix", "")
                     lnclass = getattr(rc.parent(), "lnClass", "")
-                    # print("rc_dict: ", rc.OptFields.__dict__)
-                    # check sequence number in optfields
-                    if(rc.OptFields.seqNum):
+                    inst = getattr(rc.parent(), "inst", "") or ""
+                    
+                    # Construct full LN identifier: e.g., powMMXU1
+                    full_lnclass = f"{prefix}{lnclass}{inst}"
+                    
+                    # Example: checking OptFields
+                    if rc.OptFields.seqNum:
                         print("Sequence Number is enabled in ReportControl")
                     else:
                         dataset = rc.datSet
-                    # print("Dataset:", dataset)
-                    dataset_ref = f"{self.ied_name[0]}{ld_name}/{lnclass}${dataset}"
-                    self._process_rc_block(rc, ld_name, dataset_ref, lnclass)
+                    
+                    # Construct dataset reference
+                    dataset_ref = f"{self.ied_name[0]}{ld_name}/{full_lnclass}${dataset}"
+                    
+                    # Process block
+                    self._process_rc_block(rc, ld_name, dataset_ref, full_lnclass)
+
         except Exception as e:
             print(f"❌ Error processing ReportControls in {self.scl_path}: {e}")
 
@@ -242,17 +287,22 @@ def process_single_scl_file(
                 "control": builder.control_list,
                 "reports": builder.host_reports
             }
-
-            os.makedirs(output_dir, exist_ok=True)
-            combined_path = os.path.join(output_dir, f"{base_name}_parsed.json")
+            report_dir  = output_dir.replace("TYPE", "report-jsons")  # Replace spaces with underscores
+            os.makedirs(report_dir, exist_ok=True)
+            combined_path = os.path.join(report_dir, f"{base_name}_parsed.json")
+            # combined_path = combined_path.replace("TYPE", "report-jsons")  # Replace spaces with underscores
             with open(combined_path, "w") as f:
                 json.dump(combined_output, f, indent=2)
 
-            print(f"✅ Exported to '{combined_path}'.")
-
+            print(f"? Exported to '{combined_path}'.")
+            
+            dataset_dir = output_dir.replace("TYPE", "cid-jsons")  # Replace spaces with underscores
+            os.makedirs(dataset_dir, exist_ok=True)
             # Optional: separate dataset file
-            dataset_path = os.path.join(output_dir, f"{base_name}_datasets.json")
+            dataset_path = os.path.join(dataset_dir, f"{base_name}_datasets.json")
+            # dataset_path = dataset_path.replace("TYPE", "cid-jsons")  # Replace spaces with underscores
             builder.export_dataset_info(dataset_filename=dataset_path)
+            
             return True
         else:
             print(f"⚠️ Failed to load {scl_path}")

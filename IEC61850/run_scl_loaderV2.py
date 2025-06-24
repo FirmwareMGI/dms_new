@@ -3,11 +3,10 @@ import db
 import ex_scl_loaderV2 as loader
 import json
 import os
-scl_path="/var/www/html/dms_setting/upload"
-path="/var/www/html/dms_setting/assets/scl/"
 
-Qport_id = db.readDb.m_port_grup(1, "IEC61850")
-port_id = Qport_id[0]["id"]
+path="/home/mgi/gipat-config/public/assets/TYPE"
+scl_path="/home/mgi/gipat-config/public"
+
 
 def netmask_to_cidr(m_netmask):
     """
@@ -69,19 +68,16 @@ while True:
             if(device_list[i]['scl_name']!=None):
                 id_device=device_list[i]['id_device']
                 ip_device=str(device_list[i]['ip_address'])
-                port_device=str(device_list[i]['port_address'])
+                port_device=str(device_list[i]['port_number'])
+                port_id = str(device_list[i]['port_group_id'])
                 
                 # loc=scl_path+"/"+port_id+"/"+device_list[i]['scl_name']
-                loc = "{scl_path}/{scl_name}".format(
-                    scl_path=scl_path,
-                    scl_name=device_list[i]['scl_name']
-                )
-                output_path = "{path}/{port_id}/{id_device}".format(
+                loc = scl_path + device_list[i]['scl_name']
+                output_path = "{path}/{port_id}".format(
                     path=path, 
-                    port_id=port_id, 
-                    id_device=id_device
+                    port_id=port_id
                 )
-                
+
                 print("processing scl file: ", loc)
                 try:
                     prosecessSuccess = loader.process_single_scl_file(

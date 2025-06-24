@@ -1,9 +1,10 @@
 import os
 import subprocess
+import db
 
 # Range of service instances to delete
-start = 120
-end = 350
+start = 10
+end = 20
 
 base_name = "report-client@{}.service"
 unit_path_base = "/etc/systemd/system"
@@ -20,6 +21,7 @@ def delete_services():
         if os.path.exists(unit_file_path):
             os.remove(unit_file_path)
             print(f"🗑️ Deleted {unit_file_path}")
+            db.insertDb.update_process_flag(1, i, 3)
         else:
             print(f"⚠️ File not found: {unit_file_path}")
 

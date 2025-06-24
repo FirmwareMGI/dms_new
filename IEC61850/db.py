@@ -8,7 +8,7 @@ import requests
 from datetime import datetime
 from pymysqlpool.pool import Pool
 import pymysql.cursors
-pool = Pool(host='localhost', port=3306, user='dms', password='mgi', db='dms')
+pool = Pool(host='localhost', port=3306, user='mgi', password='mgi@2025', db='dms')
 db=[0]*5
 for i in range(3):
     db[i] = pool.get_conn()
@@ -247,6 +247,17 @@ class insertDb:
             return results
         except Exception as e:
             print(f"Error executing query: {e}")
+    
+    def update_process_flag(x, id_device, flag):
+        query = f"UPDATE device_list SET process_flag = '{flag}' WHERE id_device = '{id_device}'"
+        print(query)  # Optional: remove in production
+
+        try:
+            results = queryData(x, query)
+            return results
+        except Exception as e:
+            print(f"? Error updating process_flag for device {id_device}: {e}")
+            return None
             
 class deleteDb:
     def __init__(self,index):
