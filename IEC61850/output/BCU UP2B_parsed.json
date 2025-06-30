@@ -1,0 +1,461 @@
+{
+  "iedName": "",
+  "localIP": "10.22.91.86",
+  "port": "102",
+  "machineCode": null,
+  "idDevice": null,
+  "control": [
+    {
+      "id": 0,
+      "object": "B8ADR1CONTROL/LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 1,
+      "object": "B8ADR1CONTROL/CILO1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 2,
+      "object": "B8ADR1CONTROL/CILO2.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 3,
+      "object": "B8ADR1CONTROL/CILO3.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 4,
+      "object": "B8ADR1CONTROL/CILO4.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 5,
+      "object": "B8ADR1CONTROL/CSWI1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 6,
+      "object": "B8ADR1CONTROL/CSWI1.Pos",
+      "ctlModel": "sbo-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 7,
+      "object": "B8ADR1CONTROL/CSWI2.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 8,
+      "object": "B8ADR1CONTROL/CSWI2.Pos",
+      "ctlModel": "sbo-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 9,
+      "object": "B8ADR1CONTROL/CSWI3.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 10,
+      "object": "B8ADR1CONTROL/CSWI3.Pos",
+      "ctlModel": "sbo-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 11,
+      "object": "B8ADR1CONTROL/CSWI4.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 12,
+      "object": "B8ADR1CONTROL/CSWI4.Pos",
+      "ctlModel": "sbo-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 13,
+      "object": "B8ADR1CONTROL/CSWI5.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 14,
+      "object": "B8ADR1CONTROL/GBAY1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 15,
+      "object": "B8ADR1CONTROL/GBAY1.Loc",
+      "ctlModel": "direct-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 16,
+      "object": "B8ADR1CONTROL/GBAY1.EnaSBMC",
+      "ctlModel": "direct-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 17,
+      "object": "B8ADR1CONTROL/GGIO1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 18,
+      "object": "B8ADR1CONTROL/GGIO1.SPCSO1",
+      "ctlModel": "direct-with-normal-security",
+      "enabled": false
+    },
+    {
+      "id": 19,
+      "object": "B8ADR1CONTROL/GGIO2.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 20,
+      "object": "B8ADR1CONTROL/RSYN1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 21,
+      "object": "B8ADR1CONTROL/RSYN1.Ena",
+      "ctlModel": "direct-with-normal-security",
+      "enabled": false
+    },
+    {
+      "id": 22,
+      "object": "B8ADR1MEASUREMENT/LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 23,
+      "object": "B8ADR1MEASUREMENT/GGIO1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 24,
+      "object": "B8ADR1MEASUREMENT/powMMXU1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 25,
+      "object": "B8ADR1MEASUREMENT/rmsMMXU1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 26,
+      "object": "B8ADR1SYSTEM/LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security",
+      "enabled": false
+    },
+    {
+      "id": 27,
+      "object": "B8ADR1SYSTEM/C26xDIAG1.Mod",
+      "ctlModel": "status-only",
+      "enabled": false
+    },
+    {
+      "id": 28,
+      "object": "LD0/LLN0.Mod",
+      "ctlModel": "direct-with-enhanced-security",
+      "enabled": false
+    }
+  ],
+  "reports": [
+    {
+      "id": 0,
+      "dataSetReference": "B8ADR1CONTROL/LLN0$LLN0URptStDs",
+      "rcb": "B8ADR1CONTROL/LLN0$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 1,
+      "dataSetReference": "B8ADR1CONTROL/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1CONTROL/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 2,
+      "dataSetReference": "B8ADR1CONTROL/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1CONTROL/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 3,
+      "dataSetReference": "B8ADR1CONTROL/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1CONTROL/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 4,
+      "dataSetReference": "B8ADR1CONTROL/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1CONTROL/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 5,
+      "dataSetReference": "B8ADR1CONTROL/CILO1$CILO1URptStDs",
+      "rcb": "B8ADR1CONTROL/CILO1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 6,
+      "dataSetReference": "B8ADR1CONTROL/CILO2$CILO2URptStDs",
+      "rcb": "B8ADR1CONTROL/CILO2$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 7,
+      "dataSetReference": "B8ADR1CONTROL/CILO3$CILO3URptStDs",
+      "rcb": "B8ADR1CONTROL/CILO3$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 8,
+      "dataSetReference": "B8ADR1CONTROL/CILO4$CILO4URptStDs",
+      "rcb": "B8ADR1CONTROL/CILO4$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 9,
+      "dataSetReference": "B8ADR1CONTROL/CSWI1$CSWI1URptStDs",
+      "rcb": "B8ADR1CONTROL/CSWI1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 10,
+      "dataSetReference": "B8ADR1CONTROL/CSWI2$CSWI2URptStDs",
+      "rcb": "B8ADR1CONTROL/CSWI2$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 11,
+      "dataSetReference": "B8ADR1CONTROL/CSWI3$CSWI3URptStDs",
+      "rcb": "B8ADR1CONTROL/CSWI3$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 12,
+      "dataSetReference": "B8ADR1CONTROL/CSWI4$CSWI4URptStDs",
+      "rcb": "B8ADR1CONTROL/CSWI4$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 13,
+      "dataSetReference": "B8ADR1CONTROL/CSWI5$CSWI5URptStDs",
+      "rcb": "B8ADR1CONTROL/CSWI5$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 14,
+      "dataSetReference": "B8ADR1CONTROL/GBAY1$GBAY1URptStDs",
+      "rcb": "B8ADR1CONTROL/GBAY1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 15,
+      "dataSetReference": "B8ADR1CONTROL/GGIO1$GGIO1URptStDs",
+      "rcb": "B8ADR1CONTROL/GGIO1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 16,
+      "dataSetReference": "B8ADR1CONTROL/GGIO2$GGIO2URptStDs",
+      "rcb": "B8ADR1CONTROL/GGIO2$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 17,
+      "dataSetReference": "B8ADR1CONTROL/LPHD2$LPHD2URptStDs",
+      "rcb": "B8ADR1CONTROL/LPHD2$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 18,
+      "dataSetReference": "B8ADR1CONTROL/RSYN1$RSYN1URptStDs",
+      "rcb": "B8ADR1CONTROL/RSYN1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 19,
+      "dataSetReference": "B8ADR1MEASUREMENT/LLN0$LLN0URptStDs",
+      "rcb": "B8ADR1MEASUREMENT/LLN0$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 20,
+      "dataSetReference": "B8ADR1MEASUREMENT/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1MEASUREMENT/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 21,
+      "dataSetReference": "B8ADR1MEASUREMENT/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1MEASUREMENT/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 22,
+      "dataSetReference": "B8ADR1MEASUREMENT/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1MEASUREMENT/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 23,
+      "dataSetReference": "B8ADR1MEASUREMENT/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1MEASUREMENT/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 24,
+      "dataSetReference": "B8ADR1MEASUREMENT/GGIO1$GGIO1URptMxDs",
+      "rcb": "B8ADR1MEASUREMENT/GGIO1$RP$urcbMX",
+      "isEnable": false
+    },
+    {
+      "id": 25,
+      "dataSetReference": "B8ADR1MEASUREMENT/GGIO1$GGIO1URptStDs",
+      "rcb": "B8ADR1MEASUREMENT/GGIO1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 26,
+      "dataSetReference": "B8ADR1MEASUREMENT/LPHD3$LPHD3URptStDs",
+      "rcb": "B8ADR1MEASUREMENT/LPHD3$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 27,
+      "dataSetReference": "B8ADR1MEASUREMENT/powMMXU1$powMMXU1URptMxDs",
+      "rcb": "B8ADR1MEASUREMENT/powMMXU1$RP$urcbMX",
+      "isEnable": false
+    },
+    {
+      "id": 28,
+      "dataSetReference": "B8ADR1MEASUREMENT/powMMXU1$powMMXU1URptStDs",
+      "rcb": "B8ADR1MEASUREMENT/powMMXU1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 29,
+      "dataSetReference": "B8ADR1MEASUREMENT/rmsMMXU1$rmsMMXU1URptMxDs",
+      "rcb": "B8ADR1MEASUREMENT/rmsMMXU1$RP$urcbMX",
+      "isEnable": false
+    },
+    {
+      "id": 30,
+      "dataSetReference": "B8ADR1MEASUREMENT/rmsMMXU1$rmsMMXU1URptStDs",
+      "rcb": "B8ADR1MEASUREMENT/rmsMMXU1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 31,
+      "dataSetReference": "B8ADR1SYSTEM/LLN0$LLN0URptStDs",
+      "rcb": "B8ADR1SYSTEM/LLN0$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 32,
+      "dataSetReference": "B8ADR1SYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1SYSTEM/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 33,
+      "dataSetReference": "B8ADR1SYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1SYSTEM/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 34,
+      "dataSetReference": "B8ADR1SYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1SYSTEM/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 35,
+      "dataSetReference": "B8ADR1SYSTEM/LLN0$LLN0BRptStDs",
+      "rcb": "B8ADR1SYSTEM/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 36,
+      "dataSetReference": "B8ADR1SYSTEM/C26xDIAG1$C26xDIAG1URptStDs",
+      "rcb": "B8ADR1SYSTEM/C26xDIAG1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 37,
+      "dataSetReference": "B8ADR1SYSTEM/LPHD1$LPHD1URptStDs",
+      "rcb": "B8ADR1SYSTEM/LPHD1$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 38,
+      "dataSetReference": "LD0/LLN0$LLN0URptStDs",
+      "rcb": "LD0/LLN0$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 39,
+      "dataSetReference": "LD0/LLN0$LLN0BRptStDs",
+      "rcb": "LD0/LLN0$BR$brcbST01",
+      "isEnable": false
+    },
+    {
+      "id": 40,
+      "dataSetReference": "LD0/LLN0$LLN0BRptStDs",
+      "rcb": "LD0/LLN0$BR$brcbST02",
+      "isEnable": false
+    },
+    {
+      "id": 41,
+      "dataSetReference": "LD0/LLN0$LLN0BRptStDs",
+      "rcb": "LD0/LLN0$BR$brcbST03",
+      "isEnable": false
+    },
+    {
+      "id": 42,
+      "dataSetReference": "LD0/LLN0$LLN0BRptStDs",
+      "rcb": "LD0/LLN0$BR$brcbST04",
+      "isEnable": false
+    },
+    {
+      "id": 43,
+      "dataSetReference": "LD0/DBID$DBIDURptStDs",
+      "rcb": "LD0/DBID$RP$urcbST",
+      "isEnable": false
+    },
+    {
+      "id": 44,
+      "dataSetReference": "LD0/DBID$DBIDURptCfDs",
+      "rcb": "LD0/DBID$RP$urcbCF",
+      "isEnable": false
+    },
+    {
+      "id": 45,
+      "dataSetReference": "LD0/LPHD$LPHDURptStDs",
+      "rcb": "LD0/LPHD$RP$urcbST",
+      "isEnable": false
+    }
+  ]
+}

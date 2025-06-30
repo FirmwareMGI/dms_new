@@ -4,6 +4,7 @@ from scl_loader import SCD_handler
 from scl_loader import LN
 from collections import defaultdict
 import time
+from scl_loader.scl_loader import DA
 
 BR_list = ["brcb", "brep", "bcrb", "bcrep"]
 
@@ -27,12 +28,13 @@ class IEDPARSER:
     def load_scl(self):
         try:
             handler = SCD_handler(self.scl_path)
-            print("masuk sini cok")
             self.ied_name = handler.get_IED_names_list()
             ip_info = handler.get_IP_Adr(self.ied_name[0])
             self.ied = handler.get_IED_by_name(self.ied_name[0])
             self.lds = self.ied.get_children_LDs(ip_info[1])
-
+            
+            # print ("ied name", self.ied)
+            
             # Default to IP from SCL unless overridden
             if not self.ip:
                 self.ip = ip_info[0]
@@ -48,11 +50,12 @@ class IEDPARSER:
     def extract_ctl_models(self):
         try:
             da_list = self.ied.get_DA_leaf_nodes()
+
             for da in da_list.values():
                 if da.name == 'ctlModel' and hasattr(da, 'Val'):
                     obj_path = str(da.get_path_from_ld()).replace(".ctlModel", "")
-                    DA = obj_path.replace(".", "/", 1)
-                    ctl_path = f"{self.ied_name[0]}{DA}"
+                    DAs = obj_path.replace(".", "/", 1)
+                    ctl_path = f"{self.ied_name[0]}{DAs}"
                     # print(f"Extracted ctlModel: {ctl_path}")
                     self.control_list.append({
                         "id": self.control_id_counter,
@@ -67,6 +70,11 @@ class IEDPARSER:
 
     def process_report_controls(self, id_device=None):
         try:
+            da_node = self.ied.get_DA_leaf_nodes()
+
+            for da in da_node:
+                print("da", da)
+
             global_index = 0
             for ld in self.lds:
                 ld_name = ld.name
@@ -83,7 +91,7 @@ class IEDPARSER:
                 
                 # Filter logical node keys
                 ln_keys = [key for key in all_keys if key not in exclude_keys]
-                print("LN Keys:", ln_keys)
+                # print("LN Keys:", ln_keys)
                 
                 # Get ReportControls
                 report_controls = ld.get_reportcontrols(ln_keys)
@@ -93,8 +101,7 @@ class IEDPARSER:
                 self.temp_dict = defaultdict(list)  # RESET every LD
 
                 data_set = ld.get_datasets(ln_keys)
-                print("data set")
-
+                
                 for data in data_set:
                     prefix = getattr(data.parent(), "prefix", "")
                     lnclass = getattr(data.parent(), "lnClass", "")
@@ -113,15 +120,18 @@ class IEDPARSER:
                     for fcda in data.FCDA:
                         lnInst = getattr(fcda, 'lnInst', '')
                         base = f"{self.ied_name[0]}{ld.name}/{fcda.lnClass}"
-                        print(base)
                         if lnInst:
                            base += f"{lnInst}"
+                        
 
                         # Try to get doName, if not present then fallback to daName
                         name = getattr(fcda, 'doName', None) or getattr(fcda, 'daName', None)
                         
+                        
+                        
                         if name:
                             full_path = f"{base}.{name}"
+                            print(f"  Adding FCDA: {full_path} to dataset {dataset_key}")
                             self.temp_dict[dataset_key].append(full_path)
 
 
@@ -150,7 +160,7 @@ class IEDPARSER:
                     continue
                     
                 
-                print("report_controls", report_controls)
+                # print("report_controls", report_controls)
 
                 for rc in report_controls:
                     #print(f"Processing ReportControl: {rc.__dict__}")
@@ -163,10 +173,10 @@ class IEDPARSER:
                     full_lnclass = f"{prefix}{lnclass}{inst}"
                     
                     # Example: checking OptFields
-                    if rc.OptFields.seqNum:
-                        print("Sequence Number is enabled in ReportControl")
-                    else:
-                        dataset = rc.datSet
+                    # if rc.OptFields.seqNum:
+                    #     print("Sequence Number is enabled in ReportControl")
+                    # else:
+                    dataset = rc.datSet
                     
                     # Construct dataset reference
                     dataset_ref = f"{self.ied_name[0]}{ld_name}/{full_lnclass}${dataset}"
@@ -181,7 +191,7 @@ class IEDPARSER:
         try:
             if rc.RptEnabled and hasattr(rc.RptEnabled, 'max'):
                 max_val = int(rc.RptEnabled.max)
-                print(f"  RC: {rc.datSet} → max: {max_val}")
+                # print(f"  RC: {rc.datSet} → max: {max_val}")
                 if any(x in rc.name.lower() for x in BR_list):
                     prefix = f"{self.ied_name[0]}{ld_name}/{ln_class}$BR$"
                 else:
@@ -245,7 +255,7 @@ def process_all_scl_files_in_folder(folder_path):
         for file in files:
             if any(file.lower().endswith(ext) for ext in supported_extensions):
                 scl_path = os.path.join(root, file)
-                print(f"🔍 Processing: {scl_path}")
+                # print(f"🔍 Processing: {scl_path}")
 
                 builder = IEDPARSER(scl_path)
                 if builder.load_scl():
@@ -317,10 +327,10 @@ def process_single_scl_file(
 if __name__ == "__main__":
     folder_path = "scl_files"
     process_all_scl_files_in_folder(folder_path)
-    upload_dir = "/var/www/html/dms_setting/upload"
+    upload_dir = "D:\test git\scl_loader_test\scl_files"
 
     # Or test single file
-    process_single_scl_file("/var/www/html/dms_setting/upload/scl_11.iid")
+    process_single_scl_file("D:/test git/scl_loader_test/scl_files/BCU UP2B.iid")
     # for filename in os.listdir(upload_dir):
     #     file_path = os.path.join(upload_dir, filename)
 
